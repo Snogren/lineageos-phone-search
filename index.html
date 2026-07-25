@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LineageOS Phone Search</title>
+<style>
+  :root {
+    --bg: #11131a; --panel: #191c26; --panel-2: #1f2330; --line: #2b3040;
+    --ink: #e8eaf2; --muted: #949bb3; --accent: #7aa2ff; --good: #5fd39a;
+    --warn: #f0b45e;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg:#f6f7fb; --panel:#fff; --panel-2:#f0f2f8; --line:#dde1ec;
+      --ink:#171a22; --muted:#5e6478; --accent:#2f5fd0; --good:#12855c;
+      --warn:#9a6410;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    padding: 20px 24px 14px; border-bottom: 1px solid var(--line);
+    background: var(--panel);
+  }
+  h1 { margin: 0 0 4px; font-size: 19px; letter-spacing: -.01em; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .sub code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end;
+    padding: 14px 24px; border-bottom: 1px solid var(--line);
+    background: var(--panel); position: sticky; top: 0; z-index: 5;
+  }
+  .ctl { display: flex; flex-direction: column; gap: 4px; }
+  .ctl label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  input[type=search], select {
+    background: var(--panel-2); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 7px; padding: 7px 10px; font: inherit; font-size: 14px; min-width: 150px;
+  }
+  input[type=search] { min-width: 230px; }
+  .range { display: flex; align-items: center; gap: 8px; }
+  .range input { width: 130px; accent-color: var(--accent); }
+  .range output { font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 600; min-width: 62px; }
+  .count { margin-left: auto; color: var(--muted); font-size: 13px; }
+  .count b { color: var(--ink); font-size: 15px; }
+
+  main { padding: 18px 24px 60px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); }
+
+  .card {
+    display: block; color: inherit; text-decoration: none;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 11px;
+    padding: 14px 15px; cursor: pointer; position: relative;
+    transition: border-color .13s, transform .13s, box-shadow .13s;
+  }
+  .card:hover {
+    border-color: var(--accent); transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(0,0,0,.22);
+  }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .vendor { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .07em; }
+  .name { font-size: 16px; font-weight: 650; margin: 2px 0 8px; letter-spacing: -.01em; }
+  .models {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px;
+    color: var(--muted); margin-bottom: 9px; word-break: break-word;
+  }
+  .models span { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; margin-right: 4px; display: inline-block; }
+
+  .specs { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+  .chip {
+    font-size: 11.5px; padding: 2.5px 8px; border-radius: 20px;
+    background: var(--panel-2); border: 1px solid var(--line); color: var(--muted);
+  }
+  .chip.on { color: var(--good); border-color: color-mix(in srgb, var(--good) 40%, var(--line)); }
+  .chip.size { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); font-variant-numeric: tabular-nums; }
+
+  .foot {
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 1px solid var(--line); padding-top: 8px; font-size: 12px; color: var(--muted);
+  }
+  .foot .wiki { color: var(--muted); cursor: pointer; border-bottom: 1px dotted var(--line); }
+  .foot .wiki:hover { color: var(--accent); }
+  .foot .wiki:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } .card:hover { transform: none; } }
+  .los { font-variant-numeric: tabular-nums; }
+  .empty { color: var(--muted); padding: 50px 0; text-align: center; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>LineageOS Phone Search</h1>
+  <div class="sub">
+    Active LineageOS devices &middot; 4&ndash;6.5&Prime; screen &middot; 4G without 5G &middot; 3.5&nbsp;mm jack.
+    SD&nbsp;card slot not considered. Click a phone to search eBay.
+  </div>
+</header>
+
+<div class="controls">
+  <div class="ctl">
+    <label for="q">Search</label>
+    <input type="search" id="q" placeholder="name, model number, codename…" autocomplete="off">
+  </div>
+  <div class="ctl">
+    <label for="vendor">Vendor</label>
+    <select id="vendor"><option value="">All vendors</option></select>
+  </div>
+  <div class="ctl">
+    <label for="smax">Max screen size</label>
+    <div class="range">
+      <input type="range" id="smax" min="4" max="6.5" step="0.1" value="6.5">
+      <output id="smaxOut">6.5&Prime;</output>
+    </div>
+  </div>
+  <div class="ctl">
+    <label for="sort">Sort</label>
+    <select id="sort">
+      <option value="rel-desc">Newest first</option>
+      <option value="rel-asc">Oldest first</option>
+      <option value="size-asc">Smallest screen</option>
+      <option value="size-desc">Largest screen</option>
+      <option value="name">Name A–Z</option>
+    </select>
+  </div>
+  <div class="count"><b id="n">0</b> phones</div>
+</div>
+
+<main><div class="grid" id="grid"></div><div class="empty" id="empty" hidden>No phones match.</div></main>
+
+<script>
+let PHONES = [];
+
+const el = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function ebayUrl(p) {
+  return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(p.ebay_query);
+}
+
+function card(p) {
+  const size = p.screen_size != null ? p.screen_size.toFixed(1).replace(/\.0$/, '') : '?';
+  const models = p.models.length
+    ? `<div class="models">${p.models.map(m => `<span>${esc(m)}</span>`).join('')}</div>`
+    : `<div class="models" style="opacity:.55">no model number listed</div>`;
+  const los = p.versions.length ? p.versions[p.versions.length - 1] : '—';
+
+  // A real anchor, not a div+window.open: sandboxed iframes (the Artifact
+  // host) block window.open, and an <a> also gives middle-click / open-in-
+  // new-tab for free.
+  const d = document.createElement('a');
+  d.className = 'card';
+  d.href = ebayUrl(p);
+  d.target = '_blank';
+  d.rel = 'noopener';
+  d.title = 'Search eBay for ' + p.ebay_query;
+  d.innerHTML = `
+    <div class="vendor">${esc(p.vendor)}</div>
+    <div class="name">${esc(p.name)}</div>
+    ${models}
+    <div class="specs">
+      <span class="chip size">${size}&Prime;</span>
+      <span class="chip on">4G</span>
+      <span class="chip on">no 5G</span>
+      <span class="chip on">3.5 mm jack</span>
+    </div>
+    <div class="foot">
+      <span>${esc(p.release || 'undated')}</span>
+      <span class="los">LOS ${esc(los)}</span>
+      <span class="wiki" role="link" tabindex="0">wiki</span>
+    </div>`;
+
+  // Nested anchors are invalid HTML, so the wiki link is a span that
+  // navigates itself and stops the click from reaching the card.
+  const wiki = d.querySelector('.wiki');
+  const openWiki = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(p.wiki_url, '_blank', 'noopener');
+  };
+  wiki.addEventListener('click', openWiki);
+  wiki.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') openWiki(e);
+  });
+  return d;
+}
+
+function render() {
+  const q = el('q').value.trim().toLowerCase();
+  const vendor = el('vendor').value;
+  const smax = parseFloat(el('smax').value);
+  const sort = el('sort').value;
+
+  let rows = PHONES.filter(p => {
+    if (vendor && p.vendor !== vendor) return false;
+    if (p.screen_size != null && p.screen_size > smax) return false;
+    if (!q) return true;
+    return (p.name + ' ' + p.vendor + ' ' + p.codename + ' ' + p.models.join(' '))
+      .toLowerCase().includes(q);
+  });
+
+  const cmp = {
+    'rel-desc': (a, b) => (b.release_key || '').localeCompare(a.release_key || ''),
+    'rel-asc':  (a, b) => (a.release_key || '').localeCompare(b.release_key || ''),
+    'size-asc': (a, b) => a.screen_size - b.screen_size,
+    'size-desc':(a, b) => b.screen_size - a.screen_size,
+    'name':     (a, b) => (a.vendor + a.name).localeCompare(b.vendor + b.name),
+  }[sort];
+  rows = rows.slice().sort(cmp);
+
+  el('n').textContent = rows.length;
+  const grid = el('grid');
+  grid.replaceChildren(...rows.map(card));
+  el('empty').hidden = rows.length > 0;
+}
+
+fetch('data/phones.json')
+  .then(r => r.json())
+  .then(d => {
+    PHONES = d.phones;
+    const vs = [...new Set(PHONES.map(p => p.vendor))].sort();
+    el('vendor').append(...vs.map(v => new Option(v, v)));
+    render();
+  })
+  .catch(e => {
+    el('empty').hidden = false;
+    el('empty').textContent = 'Could not load data/phones.json — run: python3 crawl.py  (and serve over http, not file://)';
+  });
+
+el('q').addEventListener('input', render);
+el('vendor').addEventListener('change', render);
+el('sort').addEventListener('change', render);
+el('smax').addEventListener('input', () => {
+  el('smaxOut').innerHTML = parseFloat(el('smax').value).toFixed(1).replace(/\.0$/, '') + '&Prime;';
+  render();
+});
+</script>
+</body>
+</html>

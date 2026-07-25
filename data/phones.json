@@ -1,0 +1,5836 @@
+{
+  "filters": {
+    "screen_min": 4.0,
+    "screen_max": 6.5,
+    "network_require": "4G",
+    "network_exclude": "5G NR",
+    "peripheral_require": "3.5mm jack",
+    "active_only": true,
+    "sdcard": "ignored",
+    "device_type": "not filtered"
+  },
+  "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
+  "total_devices": 726,
+  "matched": 111,
+  "phones": [
+    {
+      "id": "rosemary_variant4",
+      "codename": "rosemary",
+      "vendor": "Xiaomi",
+      "name": "POCO M5s",
+      "models": [],
+      "type": "phone",
+      "release": "2022-09",
+      "release_key": "2022-09",
+      "screen_sizes": [
+        6.43
+      ],
+      "screen_size": 6.43,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Stereo speakers",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "ebay_query": "Xiaomi POCO M5s"
+    },
+    {
+      "id": "devon",
+      "codename": "devon",
+      "vendor": "Motorola",
+      "name": "moto g32",
+      "models": [
+        "XT2235-1",
+        "XT2235-2",
+        "XT2235-3"
+      ],
+      "type": "phone",
+      "release": "2022-08",
+      "release_key": "2022-08",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/devon/",
+      "ebay_query": "Motorola moto g32 (XT2235-1,XT2235-2,XT2235-3)"
+    },
+    {
+      "id": "hawao",
+      "codename": "hawao",
+      "vendor": "Motorola",
+      "name": "moto g42",
+      "models": [
+        "XT2233-1",
+        "XT2233-2"
+      ],
+      "type": "phone",
+      "release": "2022-06",
+      "release_key": "2022-06",
+      "screen_sizes": [
+        6.4
+      ],
+      "screen_size": 6.4,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/hawao/",
+      "ebay_query": "Motorola moto g42 (XT2233-1,XT2233-2)"
+    },
+    {
+      "id": "bathena",
+      "codename": "bathena",
+      "vendor": "Motorola",
+      "name": "defy 2021",
+      "models": [
+        "XT2083-8",
+        "XT2083-9"
+      ],
+      "type": "phone",
+      "release": "2021-06",
+      "release_key": "2021-06",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/bathena/",
+      "ebay_query": "Motorola defy 2021 (XT2083-8,XT2083-9)"
+    },
+    {
+      "id": "capri_variant3",
+      "codename": "capri",
+      "vendor": "Lenovo",
+      "name": "K13 Note",
+      "models": [
+        "XT2127-3"
+      ],
+      "type": "phone",
+      "release": "2021-06",
+      "release_key": "2021-06",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/capri/",
+      "ebay_query": "Lenovo K13 Note XT2127-3"
+    },
+    {
+      "id": "rosemary_variant2",
+      "codename": "rosemary",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S NFC",
+      "models": [],
+      "type": "phone",
+      "release": "2021-04",
+      "release_key": "2021-04",
+      "screen_sizes": [
+        6.43
+      ],
+      "screen_size": 6.43,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Stereo speakers",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "ebay_query": "Xiaomi Redmi Note 10S NFC"
+    },
+    {
+      "id": "rosemary_variant3",
+      "codename": "rosemary",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S Latin America",
+      "models": [],
+      "type": "phone",
+      "release": "2021-04",
+      "release_key": "2021-04",
+      "screen_sizes": [
+        6.43
+      ],
+      "screen_size": 6.43,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Stereo speakers",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "ebay_query": "Xiaomi Redmi Note 10S Latin America"
+    },
+    {
+      "id": "rosemary_variant1",
+      "codename": "rosemary",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 10S",
+      "models": [],
+      "type": "phone",
+      "release": "2021-04",
+      "release_key": "2021-04",
+      "screen_sizes": [
+        6.43
+      ],
+      "screen_size": 6.43,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Stereo speakers",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "ebay_query": "Xiaomi Redmi Note 10S"
+    },
+    {
+      "id": "caprip_variant1",
+      "codename": "caprip",
+      "vendor": "Motorola",
+      "name": "moto g30",
+      "models": [
+        "XT2129-1",
+        "XT2129-2"
+      ],
+      "type": "phone",
+      "release": "2021-03",
+      "release_key": "2021-03",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
+      "ebay_query": "Motorola moto g30 (XT2129-1,XT2129-2)"
+    },
+    {
+      "id": "caprip_variant2",
+      "codename": "caprip",
+      "vendor": "Lenovo",
+      "name": "K13 Pro",
+      "models": [
+        "XT2129-3"
+      ],
+      "type": "phone",
+      "release": "2021-03",
+      "release_key": "2021-03",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
+      "ebay_query": "Lenovo K13 Pro XT2129-3"
+    },
+    {
+      "id": "capri_variant2",
+      "codename": "capri",
+      "vendor": "Motorola",
+      "name": "moto g10 power",
+      "models": [
+        "XT2127-4"
+      ],
+      "type": "phone",
+      "release": "2021-02",
+      "release_key": "2021-02",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/capri/",
+      "ebay_query": "Motorola moto g10 power XT2127-4"
+    },
+    {
+      "id": "capri_variant1",
+      "codename": "capri",
+      "vendor": "Motorola",
+      "name": "moto g10",
+      "models": [
+        "XT2127-1",
+        "XT2127-2"
+      ],
+      "type": "phone",
+      "release": "2021-02",
+      "release_key": "2021-02",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/capri/",
+      "ebay_query": "Motorola moto g10 (XT2127-1,XT2127-2)"
+    },
+    {
+      "id": "a52q",
+      "codename": "a52q",
+      "vendor": "Samsung",
+      "name": "Galaxy A52 4G",
+      "models": [
+        "SM-A525F",
+        "SM-A525M",
+        "SM-A525F/DS",
+        "SM-A525M/DS"
+      ],
+      "type": "phone",
+      "release": "2021",
+      "release_key": "2021-00",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "Super AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/a52q/",
+      "ebay_query": "Samsung Galaxy A52 4G (SM-A525F,SM-A525M,SM-A525F/DS,SM-A525M/DS)"
+    },
+    {
+      "id": "guam_variant1",
+      "codename": "guam",
+      "vendor": "Motorola",
+      "name": "moto e7 plus",
+      "models": [
+        "XT2081-1",
+        "XT2081-2",
+        "XT2081-3"
+      ],
+      "type": "phone",
+      "release": "2020-09-16",
+      "release_key": "2020-09",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guam/",
+      "ebay_query": "Motorola moto e7 plus (XT2081-1,XT2081-2,XT2081-3)"
+    },
+    {
+      "id": "guam_variant2",
+      "codename": "guam",
+      "vendor": "Lenovo",
+      "name": "K12",
+      "models": [
+        "XT2081-4"
+      ],
+      "type": "phone",
+      "release": "2020-09-16",
+      "release_key": "2020-09",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guam/",
+      "ebay_query": "Lenovo K12 XT2081-4"
+    },
+    {
+      "id": "guamp_variant1",
+      "codename": "guamp",
+      "vendor": "Motorola",
+      "name": "moto g9 play",
+      "models": [
+        "XT2083-1",
+        "XT2083-3",
+        "XT2083-5",
+        "XT2083-6",
+        "XT2083-7"
+      ],
+      "type": "phone",
+      "release": "2020-08",
+      "release_key": "2020-08",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
+      "ebay_query": "Motorola moto g9 play (XT2083-1,XT2083-3,XT2083-5,XT2083-6)"
+    },
+    {
+      "id": "guamp_variant2",
+      "codename": "guamp",
+      "vendor": "Motorola",
+      "name": "moto g9",
+      "models": [
+        "XT2083-3"
+      ],
+      "type": "phone",
+      "release": "2020-08",
+      "release_key": "2020-08",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
+      "ebay_query": "Motorola moto g9 XT2083-3"
+    },
+    {
+      "id": "guamp_variant3",
+      "codename": "guamp",
+      "vendor": "Lenovo",
+      "name": "K12 Note",
+      "models": [
+        "XT2083-4"
+      ],
+      "type": "phone",
+      "release": "2020-08",
+      "release_key": "2020-08",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
+      "ebay_query": "Lenovo K12 Note XT2083-4"
+    },
+    {
+      "id": "sunfish",
+      "codename": "sunfish",
+      "vendor": "Google",
+      "name": "Pixel 4a",
+      "models": [],
+      "type": "phone",
+      "release": "2020-08",
+      "release_key": "2020-08",
+      "screen_sizes": [
+        5.81
+      ],
+      "screen_size": 5.81,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "eSIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/sunfish/",
+      "ebay_query": "Google Pixel 4a"
+    },
+    {
+      "id": "axolotl",
+      "codename": "axolotl",
+      "vendor": "SHIFT",
+      "name": "SHIFT6mq",
+      "models": [],
+      "type": "phone",
+      "release": "2020-06",
+      "release_key": "2020-06",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "DP over USB-C",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "SBAS",
+        "QZSS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/axolotl/",
+      "ebay_query": "SHIFT SHIFT6mq"
+    },
+    {
+      "id": "style3lm",
+      "codename": "style3lm",
+      "vendor": "LG",
+      "name": "Style3",
+      "models": [
+        "L-41A"
+      ],
+      "type": "phone",
+      "release": "2020-06-25",
+      "release_key": "2020-06",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "DP over USB-C",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/style3lm/",
+      "ebay_query": "LG Style3 L-41A"
+    },
+    {
+      "id": "casuarina_variant2",
+      "codename": "casuarina",
+      "vendor": "Vsmart",
+      "name": "Joy 3+",
+      "models": [
+        "V430E"
+      ],
+      "type": "phone",
+      "release": "2020-02-14",
+      "release_key": "2020-02",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/casuarina/",
+      "ebay_query": "Vsmart Joy 3+ V430E"
+    },
+    {
+      "id": "casuarina_variant1",
+      "codename": "casuarina",
+      "vendor": "Vsmart",
+      "name": "Joy 3",
+      "models": [
+        "V430A"
+      ],
+      "type": "phone",
+      "release": "2020-02-14",
+      "release_key": "2020-02",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/casuarina/",
+      "ebay_query": "Vsmart Joy 3 V430A"
+    },
+    {
+      "id": "a21s",
+      "codename": "a21s",
+      "vendor": "Samsung",
+      "name": "Galaxy A21s",
+      "models": [
+        "SM-A217F",
+        "SM-A217M",
+        "SM-A217F/DS",
+        "SM-A217F/DSN",
+        "SM-A217M/DS"
+      ],
+      "type": "phone",
+      "release": "2020",
+      "release_key": "2020-00",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "PLS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/a21s/",
+      "ebay_query": "Samsung Galaxy A21s (SM-A217F,SM-A217M,SM-A217F/DS,SM-A217F/DSN)"
+    },
+    {
+      "id": "ginkgo_variant2",
+      "codename": "ginkgo",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 8T",
+      "models": [],
+      "type": "phone",
+      "release": "2019-11",
+      "release_key": "2019-11",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
+      "ebay_query": "Xiaomi Redmi Note 8T"
+    },
+    {
+      "id": "tucana_variant2",
+      "codename": "tucana",
+      "vendor": "Xiaomi",
+      "name": "Mi Note 10 Pro",
+      "models": [
+        "M1910F4S"
+      ],
+      "type": "phone",
+      "release": "2019-11-11",
+      "release_key": "2019-11",
+      "screen_sizes": [
+        6.47
+      ],
+      "screen_size": 6.47,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
+      "ebay_query": "Xiaomi Mi Note 10 Pro M1910F4S"
+    },
+    {
+      "id": "tucana_variant1",
+      "codename": "tucana",
+      "vendor": "Xiaomi",
+      "name": "Mi Note 10",
+      "models": [
+        "M1910F4G"
+      ],
+      "type": "phone",
+      "release": "2019-11-11",
+      "release_key": "2019-11",
+      "screen_sizes": [
+        6.47
+      ],
+      "screen_size": 6.47,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
+      "ebay_query": "Xiaomi Mi Note 10 M1910F4G"
+    },
+    {
+      "id": "tucana_variant3",
+      "codename": "tucana",
+      "vendor": "Xiaomi",
+      "name": "Mi CC9 Pro",
+      "models": [
+        "M1910F4E"
+      ],
+      "type": "phone",
+      "release": "2019-11-11",
+      "release_key": "2019-11",
+      "screen_sizes": [
+        6.47
+      ],
+      "screen_size": 6.47,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Ultrasound proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
+      "ebay_query": "Xiaomi Mi CC9 Pro M1910F4E"
+    },
+    {
+      "id": "Mi439_variant4",
+      "codename": "Mi439",
+      "vendor": "Xiaomi",
+      "name": "Redmi 8A Dual",
+      "models": [
+        "M2001C3K3I"
+      ],
+      "type": "phone",
+      "release": "2019-10",
+      "release_key": "2019-10",
+      "screen_sizes": [
+        6.22
+      ],
+      "screen_size": 6.22,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
+      "ebay_query": "Xiaomi Redmi 8A Dual M2001C3K3I"
+    },
+    {
+      "id": "Mi439_variant3",
+      "codename": "Mi439",
+      "vendor": "Xiaomi",
+      "name": "Redmi 8A",
+      "models": [
+        "M1908C3KE",
+        "M1908C3KG",
+        "M1908C3KH",
+        "M1908C3KI"
+      ],
+      "type": "phone",
+      "release": "2019-10",
+      "release_key": "2019-10",
+      "screen_sizes": [
+        6.22
+      ],
+      "screen_size": 6.22,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
+      "ebay_query": "Xiaomi Redmi 8A (M1908C3KE,M1908C3KG,M1908C3KH,M1908C3KI)"
+    },
+    {
+      "id": "Mi439_variant2",
+      "codename": "Mi439",
+      "vendor": "Xiaomi",
+      "name": "Redmi 8",
+      "models": [
+        "M1908C3IC",
+        "M1908C3IE",
+        "M1908C3IG",
+        "M1908C3IH",
+        "M1908C3II"
+      ],
+      "type": "phone",
+      "release": "2019-10",
+      "release_key": "2019-10",
+      "screen_sizes": [
+        6.22
+      ],
+      "screen_size": 6.22,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
+      "ebay_query": "Xiaomi Redmi 8 (M1908C3IC,M1908C3IE,M1908C3IG,M1908C3IH)"
+    },
+    {
+      "id": "troika",
+      "codename": "troika",
+      "vendor": "Motorola",
+      "name": "one action",
+      "models": [
+        "XT2013-1",
+        "XT2013-2",
+        "XT2013-3",
+        "XT2013-4"
+      ],
+      "type": "phone",
+      "release": "2019-10-31",
+      "release_key": "2019-10",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/troika/",
+      "ebay_query": "Motorola one action (XT2013-1,XT2013-2,XT2013-3,XT2013-4)"
+    },
+    {
+      "id": "pro1",
+      "codename": "pro1",
+      "vendor": "F(x)tec",
+      "name": "Pro\u00b9",
+      "models": [],
+      "type": "phone (slider)",
+      "release": "2019-10",
+      "release_key": "2019-10",
+      "screen_sizes": [
+        5.99
+      ],
+      "screen_size": 5.99,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Hardware keyboard",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/pro1/",
+      "ebay_query": "F(x)tec Pro\u00b9"
+    },
+    {
+      "id": "pyxis_variant1",
+      "codename": "pyxis",
+      "vendor": "Xiaomi",
+      "name": "Mi CC9",
+      "models": [
+        "M1904F3BC"
+      ],
+      "type": "phone",
+      "release": "2019-09",
+      "release_key": "2019-09",
+      "screen_sizes": [
+        6.31
+      ],
+      "screen_size": 6.31,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
+      "ebay_query": "Xiaomi Mi CC9 M1904F3BC"
+    },
+    {
+      "id": "pyxis_variant2",
+      "codename": "pyxis",
+      "vendor": "Xiaomi",
+      "name": "Mi 9 Lite",
+      "models": [
+        "M1904F3BG"
+      ],
+      "type": "phone",
+      "release": "2019-09",
+      "release_key": "2019-09",
+      "screen_sizes": [
+        6.31
+      ],
+      "screen_size": 6.31,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
+      "ebay_query": "Xiaomi Mi 9 Lite M1904F3BG"
+    },
+    {
+      "id": "FP3_variant2",
+      "codename": "FP3",
+      "vendor": "Fairphone",
+      "name": "3+",
+      "models": [],
+      "type": "phone",
+      "release": "2019-09",
+      "release_key": "2019-09",
+      "screen_sizes": [
+        5.65
+      ],
+      "screen_size": 5.65,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "RGB ambient light"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/FP3/",
+      "ebay_query": "Fairphone 3+"
+    },
+    {
+      "id": "FP3_variant1",
+      "codename": "FP3",
+      "vendor": "Fairphone",
+      "name": "3",
+      "models": [],
+      "type": "phone",
+      "release": "2019-09",
+      "release_key": "2019-09",
+      "screen_sizes": [
+        5.65
+      ],
+      "screen_size": 5.65,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "RGB ambient light"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/FP3/",
+      "ebay_query": "Fairphone 3"
+    },
+    {
+      "id": "ginkgo_variant1",
+      "codename": "ginkgo",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 8",
+      "models": [],
+      "type": "phone",
+      "release": "2019-08",
+      "release_key": "2019-08",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
+      "ebay_query": "Xiaomi Redmi Note 8"
+    },
+    {
+      "id": "vela",
+      "codename": "vela",
+      "vendor": "Xiaomi",
+      "name": "Mi CC9 Meitu Edition",
+      "models": [
+        "M1904F3BT"
+      ],
+      "type": "phone",
+      "release": "2019-07",
+      "release_key": "2019-07",
+      "screen_sizes": [
+        6.31
+      ],
+      "screen_size": 6.31,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Dual-frequency GNSS",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/vela/",
+      "ebay_query": "Xiaomi Mi CC9 Meitu Edition M1904F3BT"
+    },
+    {
+      "id": "davinci_variant3",
+      "codename": "davinci",
+      "vendor": "Xiaomi",
+      "name": "Redmi K20 (India)",
+      "models": [
+        "M1903F10I"
+      ],
+      "type": "phone",
+      "release": "2019-06",
+      "release_key": "2019-06",
+      "screen_sizes": [
+        6.39
+      ],
+      "screen_size": 6.39,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
+      "ebay_query": "Xiaomi Redmi K20 (India) M1903F10I"
+    },
+    {
+      "id": "davinci_variant2",
+      "codename": "davinci",
+      "vendor": "Xiaomi",
+      "name": "Redmi K20 (China)",
+      "models": [
+        "M1903F10A",
+        "M1903F10C"
+      ],
+      "type": "phone",
+      "release": "2019-06",
+      "release_key": "2019-06",
+      "screen_sizes": [
+        6.39
+      ],
+      "screen_size": 6.39,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
+      "ebay_query": "Xiaomi Redmi K20 (China) (M1903F10A,M1903F10C)"
+    },
+    {
+      "id": "davinci_variant1",
+      "codename": "davinci",
+      "vendor": "Xiaomi",
+      "name": "Mi 9T",
+      "models": [
+        "M1903F10G"
+      ],
+      "type": "phone",
+      "release": "2019-06",
+      "release_key": "2019-06",
+      "screen_sizes": [
+        6.39
+      ],
+      "screen_size": 6.39,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
+      "ebay_query": "Xiaomi Mi 9T M1903F10G"
+    },
+    {
+      "id": "Mi439_variant1",
+      "codename": "Mi439",
+      "vendor": "Xiaomi",
+      "name": "Redmi 7A",
+      "models": [
+        "M1903C3EC",
+        "M1903C3EE",
+        "M1903C3EG",
+        "M1903C3EH",
+        "M1903C3EI",
+        "M1903C3ET"
+      ],
+      "type": "phone",
+      "release": "2019-05-28",
+      "release_key": "2019-05",
+      "screen_sizes": [
+        5.45
+      ],
+      "screen_size": 5.45,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
+      "ebay_query": "Xiaomi Redmi 7A (M1903C3EC,M1903C3EE,M1903C3EG,M1903C3EH)"
+    },
+    {
+      "id": "kane_variant2",
+      "codename": "kane",
+      "vendor": "Motorola",
+      "name": "p50",
+      "models": [
+        "XT1970-5"
+      ],
+      "type": "phone",
+      "release": "2019-05-15",
+      "release_key": "2019-05",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/kane/",
+      "ebay_query": "Motorola p50 XT1970-5"
+    },
+    {
+      "id": "kane_variant1",
+      "codename": "kane",
+      "vendor": "Motorola",
+      "name": "one vision",
+      "models": [
+        "XT1970-1",
+        "XT1970-2",
+        "XT1970-3"
+      ],
+      "type": "phone",
+      "release": "2019-05-15",
+      "release_key": "2019-05",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/kane/",
+      "ebay_query": "Motorola one vision (XT1970-1,XT1970-2,XT1970-3)"
+    },
+    {
+      "id": "bonito",
+      "codename": "bonito",
+      "vendor": "Google",
+      "name": "Pixel 3a XL",
+      "models": [
+        "G020B",
+        "G020C",
+        "G020D"
+      ],
+      "type": "phone",
+      "release": "2019-04",
+      "release_key": "2019-04",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "eSIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo front speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/bonito/",
+      "ebay_query": "Google Pixel 3a XL (G020B,G020C,G020D)"
+    },
+    {
+      "id": "sargo",
+      "codename": "sargo",
+      "vendor": "Google",
+      "name": "Pixel 3a",
+      "models": [
+        "G020F",
+        "G020G",
+        "G020H"
+      ],
+      "type": "phone",
+      "release": "2019-04",
+      "release_key": "2019-04",
+      "screen_sizes": [
+        5.6
+      ],
+      "screen_size": 5.6,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "eSIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "Stereo front speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/sargo/",
+      "ebay_query": "Google Pixel 3a (G020F,G020G,G020H)"
+    },
+    {
+      "id": "violet",
+      "codename": "violet",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 7 Pro",
+      "models": [
+        "M1901F7S",
+        "M1901F7BE"
+      ],
+      "type": "phone",
+      "release": "2019-03-13",
+      "release_key": "2019-03",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "16.0",
+        "20",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
+      "ebay_query": "Xiaomi Redmi Note 7 Pro (M1901F7S,M1901F7BE)"
+    },
+    {
+      "id": "beyond0lte",
+      "codename": "beyond0lte",
+      "vendor": "Samsung",
+      "name": "Galaxy S10e",
+      "models": [
+        "SM-G970F",
+        "SM-G970F/DS",
+        "SM-G970N"
+      ],
+      "type": "phone",
+      "release": "2019-03-08",
+      "release_key": "2019-03",
+      "screen_sizes": [
+        5.8
+      ],
+      "screen_size": 5.8,
+      "screen_tech": "Dynamic AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor",
+        "Qi wireless charging",
+        "Qi reverse wireless charging"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/beyond0lte/",
+      "ebay_query": "Samsung Galaxy S10e (SM-G970F,SM-G970F/DS,SM-G970N)"
+    },
+    {
+      "id": "beyond2lte",
+      "codename": "beyond2lte",
+      "vendor": "Samsung",
+      "name": "Galaxy S10+",
+      "models": [
+        "SM-G975F",
+        "SM-G975F/DS",
+        "SM-G975N"
+      ],
+      "type": "phone",
+      "release": "2019-03-08",
+      "release_key": "2019-03",
+      "screen_sizes": [
+        6.4
+      ],
+      "screen_size": 6.4,
+      "screen_tech": "Dynamic AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Heart rate sensor",
+        "Proximity sensor",
+        "Qi wireless charging",
+        "Qi reverse wireless charging"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/beyond2lte/",
+      "ebay_query": "Samsung Galaxy S10+ (SM-G975F,SM-G975F/DS,SM-G975N)"
+    },
+    {
+      "id": "beyond1lte",
+      "codename": "beyond1lte",
+      "vendor": "Samsung",
+      "name": "Galaxy S10",
+      "models": [
+        "SM-G973F",
+        "SM-G973F/DS",
+        "SM-G973N"
+      ],
+      "type": "phone",
+      "release": "2019-03-08",
+      "release_key": "2019-03",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "Dynamic AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Heart rate sensor",
+        "Proximity sensor",
+        "Qi wireless charging",
+        "Qi reverse wireless charging"
+      ],
+      "versions": [
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/beyond1lte/",
+      "ebay_query": "Samsung Galaxy S10 (SM-G973F,SM-G973F/DS,SM-G973N)"
+    },
+    {
+      "id": "channel",
+      "codename": "channel",
+      "vendor": "Motorola",
+      "name": "moto g7 play",
+      "models": [
+        "XT1952-1",
+        "XT1952-2",
+        "XT1952-3"
+      ],
+      "type": "phone",
+      "release": "2019-03",
+      "release_key": "2019-03",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/channel/",
+      "ebay_query": "Motorola moto g7 play (XT1952-1,XT1952-2,XT1952-3)"
+    },
+    {
+      "id": "mermaid",
+      "codename": "mermaid",
+      "vendor": "Sony",
+      "name": "Xperia 10 Plus",
+      "models": [
+        "I3213",
+        "I3223",
+        "I4213",
+        "I4293"
+      ],
+      "type": "phone",
+      "release": "2019-02",
+      "release_key": "2019-02",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/mermaid/",
+      "ebay_query": "Sony Xperia 10 Plus (I3213,I3223,I4213,I4293)"
+    },
+    {
+      "id": "kirin",
+      "codename": "kirin",
+      "vendor": "Sony",
+      "name": "Xperia 10",
+      "models": [
+        "I3113",
+        "I3123",
+        "I4113",
+        "I4193"
+      ],
+      "type": "phone",
+      "release": "2019-02",
+      "release_key": "2019-02",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/kirin/",
+      "ebay_query": "Sony Xperia 10 (I3113,I3123,I4113,I4193)"
+    },
+    {
+      "id": "ocean",
+      "codename": "ocean",
+      "vendor": "Motorola",
+      "name": "moto g7 power",
+      "models": [
+        "XT1955-1",
+        "XT1955-2",
+        "XT1955-4",
+        "XT1955-5",
+        "XT1955-7"
+      ],
+      "type": "phone",
+      "release": "2019-02",
+      "release_key": "2019-02",
+      "screen_sizes": [
+        6.2
+      ],
+      "screen_size": 6.2,
+      "screen_tech": "IPS LTPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/ocean/",
+      "ebay_query": "Motorola moto g7 power (XT1955-1,XT1955-2,XT1955-4,XT1955-5)"
+    },
+    {
+      "id": "lake",
+      "codename": "lake",
+      "vendor": "Motorola",
+      "name": "moto g7 plus",
+      "models": [
+        "XT1965-2",
+        "XT1965-3",
+        "XT1965-6",
+        "XT1965-T"
+      ],
+      "type": "phone",
+      "release": "2019-02",
+      "release_key": "2019-02",
+      "screen_sizes": [
+        6.2
+      ],
+      "screen_size": 6.2,
+      "screen_tech": "IPS LTPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/lake/",
+      "ebay_query": "Motorola moto g7 plus (XT1965-2,XT1965-3,XT1965-6,XT1965-T)"
+    },
+    {
+      "id": "river",
+      "codename": "river",
+      "vendor": "Motorola",
+      "name": "moto g7",
+      "models": [
+        "XT1962-01",
+        "XT1962-04",
+        "XT1962-05",
+        "XT1962-06"
+      ],
+      "type": "phone",
+      "release": "2019-02",
+      "release_key": "2019-02",
+      "screen_sizes": [
+        6.2
+      ],
+      "screen_size": 6.2,
+      "screen_tech": "IPS LTPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/river/",
+      "ebay_query": "Motorola moto g7 (XT1962-01,XT1962-04,XT1962-05,XT1962-06)"
+    },
+    {
+      "id": "nx619j",
+      "codename": "nx619j",
+      "vendor": "Nubia",
+      "name": "Red Magic Mars",
+      "models": [
+        "NX619J"
+      ],
+      "type": "phone",
+      "release": "2018-12",
+      "release_key": "2018-12",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/nx619j/",
+      "ebay_query": "Nubia Red Magic Mars NX619J"
+    },
+    {
+      "id": "judypn",
+      "codename": "judypn",
+      "vendor": "LG",
+      "name": "V40 ThinQ",
+      "models": [
+        "LM-V405QA7",
+        "LM-V405UA",
+        "LM-V405UA0",
+        "LM-V405EBW",
+        "LM-V405EAW",
+        "LM-V409N"
+      ],
+      "type": "phone",
+      "release": "2018-10-03",
+      "release_key": "2018-10",
+      "screen_sizes": [
+        6.4
+      ],
+      "screen_size": 6.4,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/judypn/",
+      "ebay_query": "LG V40 ThinQ (LM-V405QA7,LM-V405UA,LM-V405UA0,LM-V405EBW)"
+    },
+    {
+      "id": "beryllium",
+      "codename": "beryllium",
+      "vendor": "Xiaomi",
+      "name": "POCO F1",
+      "models": [],
+      "type": "phone",
+      "release": "2018-08",
+      "release_key": "2018-08",
+      "screen_sizes": [
+        6.18
+      ],
+      "screen_size": 6.18,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR camera",
+        "Light sensor",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
+      "ebay_query": "Xiaomi POCO F1"
+    },
+    {
+      "id": "voyager",
+      "codename": "voyager",
+      "vendor": "Sony",
+      "name": "Xperia XA2 Plus",
+      "models": [
+        "H3413",
+        "H4413",
+        "H4493"
+      ],
+      "type": "phone",
+      "release": "2018-07",
+      "release_key": "2018-07",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/voyager/",
+      "ebay_query": "Sony Xperia XA2 Plus (H3413,H4413,H4493)"
+    },
+    {
+      "id": "Z01R",
+      "codename": "Z01R",
+      "vendor": "ASUS",
+      "name": "Zenfone 5Z (ZS620KL)",
+      "models": [],
+      "type": "phone",
+      "release": "2018-06",
+      "release_key": "2018-06",
+      "screen_sizes": [
+        6.2
+      ],
+      "screen_size": 6.2,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor",
+        "RGB ambient light",
+        "Stereo front speakers",
+        "USB OTG"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Z01R/",
+      "ebay_query": "ASUS Zenfone 5Z (ZS620KL)"
+    },
+    {
+      "id": "evert",
+      "codename": "evert",
+      "vendor": "Motorola",
+      "name": "moto g6 plus",
+      "models": [
+        "XT1926-2",
+        "XT1926-3",
+        "XT1926-5",
+        "XT1926-6",
+        "XT1926-7",
+        "XT1926-8",
+        "XT1926-9"
+      ],
+      "type": "phone",
+      "release": "2018-05",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        5.2
+      ],
+      "screen_size": 5.2,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/evert/",
+      "ebay_query": "Motorola moto g6 plus (XT1926-2,XT1926-3,XT1926-5,XT1926-6)"
+    },
+    {
+      "id": "judyp",
+      "codename": "judyp",
+      "vendor": "LG",
+      "name": "V35 ThinQ",
+      "models": [
+        "LM-V350AWM",
+        "LM-V350N"
+      ],
+      "type": "phone",
+      "release": "2018-05-30",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/judyp/",
+      "ebay_query": "LG V35 ThinQ (LM-V350AWM,LM-V350N)"
+    },
+    {
+      "id": "judyln_variant2",
+      "codename": "judyln",
+      "vendor": "LG",
+      "name": "G7+ ThinQ",
+      "models": [
+        "LM-G710EAW"
+      ],
+      "type": "phone",
+      "release": "2018-05-02",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/judyln/",
+      "ebay_query": "LG G7+ ThinQ LM-G710EAW"
+    },
+    {
+      "id": "g710ulm",
+      "codename": "g710ulm",
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710ULM/VMX)",
+      "models": [
+        "LM-G710ULM",
+        "LM-G710VMX"
+      ],
+      "type": "phone",
+      "release": "2018-05-02",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/g710ulm/",
+      "ebay_query": "LG G7 ThinQ (G710ULM/VMX) (LM-G710ULM,LM-G710VMX)"
+    },
+    {
+      "id": "g710n",
+      "codename": "g710n",
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710N)",
+      "models": [
+        "LM-G710N"
+      ],
+      "type": "phone",
+      "release": "2018-05-02",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/g710n/",
+      "ebay_query": "LG G7 ThinQ (G710N) LM-G710N"
+    },
+    {
+      "id": "judyln_variant1",
+      "codename": "judyln",
+      "vendor": "LG",
+      "name": "G7 ThinQ (G710AWM/EM/EMW)",
+      "models": [
+        "LM-G710AWM",
+        "LM-G710EM",
+        "LM-G710EMW"
+      ],
+      "type": "phone",
+      "release": "2018-05-02",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        6.1
+      ],
+      "screen_size": 6.1,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/judyln/",
+      "ebay_query": "LG G7 ThinQ (G710AWM/EM/EMW) (LM-G710AWM,LM-G710EM,LM-G710EMW)"
+    },
+    {
+      "id": "enchilada",
+      "codename": "enchilada",
+      "vendor": "OnePlus",
+      "name": "6",
+      "models": [],
+      "type": "phone",
+      "release": "2018-04",
+      "release_key": "2018-04",
+      "screen_sizes": [
+        6.28
+      ],
+      "screen_size": 6.28,
+      "screen_tech": "Optic AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "SBAS",
+        "QZSS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/enchilada/",
+      "ebay_query": "OnePlus 6"
+    },
+    {
+      "id": "B2N",
+      "codename": "B2N",
+      "vendor": "Nokia",
+      "name": "7 plus",
+      "models": [
+        "TA-1041",
+        "TA-1062",
+        "TA-1046"
+      ],
+      "type": "phone",
+      "release": "2018-04-30",
+      "release_key": "2018-04",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/B2N/",
+      "ebay_query": "Nokia 7 plus (TA-1041,TA-1062,TA-1046)"
+    },
+    {
+      "id": "discovery",
+      "codename": "discovery",
+      "vendor": "Sony",
+      "name": "Xperia XA2 Ultra",
+      "models": [
+        "H3213",
+        "H4213",
+        "H4233",
+        "H3223"
+      ],
+      "type": "phone",
+      "release": "2018-02",
+      "release_key": "2018-02",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/discovery/",
+      "ebay_query": "Sony Xperia XA2 Ultra (H3213,H4213,H4233,H3223)"
+    },
+    {
+      "id": "pioneer",
+      "codename": "pioneer",
+      "vendor": "Sony",
+      "name": "Xperia XA2",
+      "models": [
+        "H3113",
+        "H4113",
+        "H3133",
+        "H4133",
+        "H3123"
+      ],
+      "type": "phone",
+      "release": "2018-02",
+      "release_key": "2018-02",
+      "screen_sizes": [
+        5.2
+      ],
+      "screen_size": 5.2,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/pioneer/",
+      "ebay_query": "Sony Xperia XA2 (H3113,H4113,H3133,H4133)"
+    },
+    {
+      "id": "PL2",
+      "codename": "PL2",
+      "vendor": "Nokia",
+      "name": "6.1 (2018)",
+      "models": [
+        "TA-1043",
+        "TA-1089"
+      ],
+      "type": "phone",
+      "release": "2018",
+      "release_key": "2018-00",
+      "screen_sizes": [
+        5.46
+      ],
+      "screen_size": 5.46,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/PL2/",
+      "ebay_query": "Nokia 6.1 (2018) (TA-1043,TA-1089)"
+    },
+    {
+      "id": "dumpling",
+      "codename": "dumpling",
+      "vendor": "OnePlus",
+      "name": "5T",
+      "models": [],
+      "type": "phone",
+      "release": "2017-11",
+      "release_key": "2017-11",
+      "screen_sizes": [
+        6.01
+      ],
+      "screen_size": 6.01,
+      "screen_tech": "Optic AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/dumpling/",
+      "ebay_query": "OnePlus 5T"
+    },
+    {
+      "id": "Mi8917_variant2",
+      "codename": "Mi8917",
+      "vendor": "Xiaomi",
+      "name": "Redmi 5A",
+      "models": [
+        "MCE3B",
+        "MCG3B",
+        "MCI3B",
+        "MCT3B"
+      ],
+      "type": "phone",
+      "release": "2017-10-16",
+      "release_key": "2017-10",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
+      "ebay_query": "Xiaomi Redmi 5A (MCE3B,MCG3B,MCI3B,MCT3B)"
+    },
+    {
+      "id": "payton",
+      "codename": "payton",
+      "vendor": "Motorola",
+      "name": "moto x4",
+      "models": [
+        "XT1900-1",
+        "XT1900-2",
+        "XT1900-3",
+        "XT1900-4",
+        "XT1900-5",
+        "XT1900-6",
+        "XT1900-7"
+      ],
+      "type": "phone",
+      "release": "2017-10",
+      "release_key": "2017-10",
+      "screen_sizes": [
+        5.2
+      ],
+      "screen_size": 5.2,
+      "screen_tech": "IPS LTPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/payton/",
+      "ebay_query": "Motorola moto x4 (XT1900-1,XT1900-2,XT1900-3,XT1900-4)"
+    },
+    {
+      "id": "Mi8937_variant6",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi Y1 Prime",
+      "models": [
+        "MDI6S"
+      ],
+      "type": "phone",
+      "release": "2017-08-21",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi Y1 Prime MDI6S"
+    },
+    {
+      "id": "Mi8917_variant4",
+      "codename": "Mi8917",
+      "vendor": "Xiaomi",
+      "name": "Redmi Y1 Lite",
+      "models": [
+        "MDI6"
+      ],
+      "type": "phone",
+      "release": "2017-08-21",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
+      "ebay_query": "Xiaomi Redmi Y1 Lite MDI6"
+    },
+    {
+      "id": "Mi8937_variant5",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 5A Prime",
+      "models": [
+        "MDE6S",
+        "MDG6S",
+        "MDT6S"
+      ],
+      "type": "phone",
+      "release": "2017-08-21",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi Note 5A Prime (MDE6S,MDG6S,MDT6S)"
+    },
+    {
+      "id": "Mi8917_variant3",
+      "codename": "Mi8917",
+      "vendor": "Xiaomi",
+      "name": "Redmi Note 5A Lite",
+      "models": [
+        "MDE6",
+        "MDG6",
+        "MDT6"
+      ],
+      "type": "phone",
+      "release": "2017-08-21",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
+      "ebay_query": "Xiaomi Redmi Note 5A Lite (MDE6,MDG6,MDT6)"
+    },
+    {
+      "id": "NB1",
+      "codename": "NB1",
+      "vendor": "Nokia",
+      "name": "8",
+      "models": [
+        "TA-1004",
+        "TA-1012",
+        "TA-1052"
+      ],
+      "type": "phone",
+      "release": "2017-08-16",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        5.3
+      ],
+      "screen_size": 5.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/NB1/",
+      "ebay_query": "Nokia 8 (TA-1004,TA-1012,TA-1052)"
+    },
+    {
+      "id": "joan_variant1",
+      "codename": "joan",
+      "vendor": "LG",
+      "name": "V30 (Unlocked)",
+      "models": [
+        "H930",
+        "H930DS",
+        "US998"
+      ],
+      "type": "phone",
+      "release": "2017-08",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/joan/",
+      "ebay_query": "LG V30 (Unlocked) (H930,H930DS,US998)"
+    },
+    {
+      "id": "joan_variant2",
+      "codename": "joan",
+      "vendor": "LG",
+      "name": "V30 (T-Mobile)",
+      "models": [
+        "H932"
+      ],
+      "type": "phone",
+      "release": "2017-08",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "DP over USB-C",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/joan/",
+      "ebay_query": "LG V30 (T-Mobile) H932"
+    },
+    {
+      "id": "joan_variant3",
+      "codename": "joan",
+      "vendor": "LG",
+      "name": "V30 (Other)",
+      "models": [
+        "H931",
+        "H933",
+        "LS998",
+        "V300L",
+        "V300K",
+        "V300S",
+        "VS996"
+      ],
+      "type": "phone",
+      "release": "2017-08",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "DP over USB-C",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/joan/",
+      "ebay_query": "LG V30 (Other) (H931,H933,LS998,V300L)"
+    },
+    {
+      "id": "l01k",
+      "codename": "l01k",
+      "vendor": "LG",
+      "name": "V30 (Japan)",
+      "models": [
+        "L-01K",
+        "LGV35"
+      ],
+      "type": "phone",
+      "release": "2017-08",
+      "release_key": "2017-08",
+      "screen_sizes": [
+        6.0
+      ],
+      "screen_size": 6.0,
+      "screen_tech": "P-OLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "DP over USB-C",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/l01k/",
+      "ebay_query": "LG V30 (Japan) (L-01K,LGV35)"
+    },
+    {
+      "id": "cheeseburger",
+      "codename": "cheeseburger",
+      "vendor": "OnePlus",
+      "name": "5",
+      "models": [],
+      "type": "phone",
+      "release": "2017-06",
+      "release_key": "2017-06",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "Optic AMOLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Hall effect sensor",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/cheeseburger/",
+      "ebay_query": "OnePlus 5"
+    },
+    {
+      "id": "Mi8937_variant4",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi 4X",
+      "models": [
+        "MAG138",
+        "MAE136",
+        "MAT136"
+      ],
+      "type": "phone",
+      "release": "2017-02-28",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi 4X (MAG138,MAE136,MAT136)"
+    },
+    {
+      "id": "Mi8937_variant3",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi 4 (India)",
+      "models": [
+        "MAI132"
+      ],
+      "type": "phone",
+      "release": "2017-02-28",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi 4 (India) MAI132"
+    },
+    {
+      "id": "us997",
+      "codename": "us997",
+      "vendor": "LG",
+      "name": "G6 (US Unlocked)",
+      "models": [],
+      "type": "phone",
+      "release": "2017-02",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/us997/",
+      "ebay_query": "LG G6 (US Unlocked)"
+    },
+    {
+      "id": "h872",
+      "codename": "h872",
+      "vendor": "LG",
+      "name": "G6 (T-Mobile)",
+      "models": [],
+      "type": "phone",
+      "release": "2017-02",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h872/",
+      "ebay_query": "LG G6 (T-Mobile)"
+    },
+    {
+      "id": "h870",
+      "codename": "h870",
+      "vendor": "LG",
+      "name": "G6 (EU Unlocked)",
+      "models": [],
+      "type": "phone",
+      "release": "2017-02",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h870/",
+      "ebay_query": "LG G6 (EU Unlocked)"
+    },
+    {
+      "id": "h870d",
+      "codename": "h870d",
+      "vendor": "LG",
+      "name": "G6 (EU Unlocked - ENG BL)",
+      "models": [],
+      "type": "phone",
+      "release": "2017-02",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h870d/",
+      "ebay_query": "LG G6 (EU Unlocked - ENG BL)"
+    },
+    {
+      "id": "h873",
+      "codename": "h873",
+      "vendor": "LG",
+      "name": "G6 (Canada - ENG BL)",
+      "models": [],
+      "type": "phone",
+      "release": "2017-02",
+      "release_key": "2017-02",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h873/",
+      "ebay_query": "LG G6 (Canada - ENG BL)"
+    },
+    {
+      "id": "Mi8917_variant1",
+      "codename": "Mi8917",
+      "vendor": "Xiaomi",
+      "name": "Redmi 4A",
+      "models": [
+        "2016111",
+        "2016112",
+        "2016116",
+        "2016117"
+      ],
+      "type": "phone",
+      "release": "2016-11-04",
+      "release_key": "2016-11",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
+      "ebay_query": "Xiaomi Redmi 4A (2016111,2016112,2016116,2016117)"
+    },
+    {
+      "id": "scorpio",
+      "codename": "scorpio",
+      "vendor": "Xiaomi",
+      "name": "Mi Note 2",
+      "models": [],
+      "type": "phone",
+      "release": "2016-11",
+      "release_key": "2016-11",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "OLED",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
+      "ebay_query": "Xiaomi Mi Note 2"
+    },
+    {
+      "id": "natrium",
+      "codename": "natrium",
+      "vendor": "Xiaomi",
+      "name": "Mi 5s Plus",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
+      "ebay_query": "Xiaomi Mi 5s Plus"
+    },
+    {
+      "id": "vs995",
+      "codename": "vs995",
+      "vendor": "LG",
+      "name": "V20 (Verizon)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/vs995/",
+      "ebay_query": "LG V20 (Verizon)"
+    },
+    {
+      "id": "h918",
+      "codename": "h918",
+      "vendor": "LG",
+      "name": "V20 (T-Mobile)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h918/",
+      "ebay_query": "LG V20 (T-Mobile)"
+    },
+    {
+      "id": "ls997",
+      "codename": "ls997",
+      "vendor": "LG",
+      "name": "V20 (Sprint)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/ls997/",
+      "ebay_query": "LG V20 (Sprint)"
+    },
+    {
+      "id": "h990",
+      "codename": "h990",
+      "vendor": "LG",
+      "name": "V20 (Global)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h990/",
+      "ebay_query": "LG V20 (Global)"
+    },
+    {
+      "id": "us996",
+      "codename": "us996",
+      "vendor": "LG",
+      "name": "V20 (GSM Unlocked)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/us996/",
+      "ebay_query": "LG V20 (GSM Unlocked)"
+    },
+    {
+      "id": "us996d",
+      "codename": "us996d",
+      "vendor": "LG",
+      "name": "V20 (GSM Unlocked - DirtySanta)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/us996d/",
+      "ebay_query": "LG V20 (GSM Unlocked - DirtySanta)"
+    },
+    {
+      "id": "h910",
+      "codename": "h910",
+      "vendor": "LG",
+      "name": "V20 (AT&T)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.7
+      ],
+      "screen_size": 5.7,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h910/",
+      "ebay_query": "LG V20 (AT&T)"
+    },
+    {
+      "id": "marlin",
+      "codename": "marlin",
+      "vendor": "Google",
+      "name": "Pixel XL",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.5
+      ],
+      "screen_size": 5.5,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/marlin/",
+      "ebay_query": "Google Pixel XL"
+    },
+    {
+      "id": "sailfish",
+      "codename": "sailfish",
+      "vendor": "Google",
+      "name": "Pixel",
+      "models": [],
+      "type": "phone",
+      "release": "2016-10",
+      "release_key": "2016-10",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/sailfish/",
+      "ebay_query": "Google Pixel"
+    },
+    {
+      "id": "Mi8937_variant2",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi 3X",
+      "models": [
+        "2016036",
+        "2016035",
+        "2016033"
+      ],
+      "type": "phone",
+      "release": "2016-06-15",
+      "release_key": "2016-06",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi 3X (2016036,2016035,2016033)"
+    },
+    {
+      "id": "Mi8937_variant1",
+      "codename": "Mi8937",
+      "vendor": "Xiaomi",
+      "name": "Redmi 3S",
+      "models": [
+        "2016031",
+        "2016037",
+        "2016032",
+        "2016030"
+      ],
+      "type": "phone",
+      "release": "2016-06-14",
+      "release_key": "2016-06",
+      "screen_sizes": [
+        5.0
+      ],
+      "screen_size": 5.0,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "BeiDou",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "19.1",
+        "20",
+        "21",
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
+      "ebay_query": "Xiaomi Redmi 3S (2016031,2016037,2016032,2016030)"
+    },
+    {
+      "id": "gemini",
+      "codename": "gemini",
+      "vendor": "Xiaomi",
+      "name": "Mi 5",
+      "models": [],
+      "type": "phone",
+      "release": "2016-04",
+      "release_key": "2016-04",
+      "screen_sizes": [
+        5.15
+      ],
+      "screen_size": 5.15,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Dual SIM",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "NFC",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "15.1",
+        "16.0",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
+      "ebay_query": "Xiaomi Mi 5"
+    },
+    {
+      "id": "rs988",
+      "codename": "rs988",
+      "vendor": "LG",
+      "name": "G5 (US Unlocked)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-02",
+      "release_key": "2016-02",
+      "screen_sizes": [
+        5.3
+      ],
+      "screen_size": 5.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "3G CDMA2000",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Mobility DisplayPort (MyDP)",
+        "NFC",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "15.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/rs988/",
+      "ebay_query": "LG G5 (US Unlocked)"
+    },
+    {
+      "id": "h830",
+      "codename": "h830",
+      "vendor": "LG",
+      "name": "G5 (T-Mobile)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-02",
+      "release_key": "2016-02",
+      "screen_sizes": [
+        5.3
+      ],
+      "screen_size": 5.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h830/",
+      "ebay_query": "LG G5 (T-Mobile)"
+    },
+    {
+      "id": "h850",
+      "codename": "h850",
+      "vendor": "LG",
+      "name": "G5 (International)",
+      "models": [],
+      "type": "phone",
+      "release": "2016-02",
+      "release_key": "2016-02",
+      "screen_sizes": [
+        5.3
+      ],
+      "screen_size": 5.3,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Barometer",
+        "Color spectrum sensor",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "14.1",
+        "17.1",
+        "18.1",
+        "19.1",
+        "20",
+        "21",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/h850/",
+      "ebay_query": "LG G5 (International)"
+    }
+  ]
+}
