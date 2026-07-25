@@ -42,6 +42,47 @@ So rows are keyed by **variant file**, not codename, and each row carries its
 own model numbers. Searching eBay for `miatoll` finds nothing; searching for
 `Xiaomi Redmi Note 9 Pro M2003J6B2G` finds the phone.
 
+## Carrier compatibility
+
+Each phone is scored against T-Mobile (and its MVNOs — Mint, Metro, Google Fi),
+Verizon, and AT&T. MVNOs inherit their host network's bands, so Mint is scored
+as T-Mobile.
+
+The verdict is **a band match only**, and that distinction matters:
+
+| Question | Answerable from specs? |
+|---|---|
+| Will it get a signal? | Yes — from LTE bands |
+| Will calls work? | **No** — VoLTE is a per-IMEI carrier allowlist |
+
+With 2G and 3G shut down, voice rides VoLTE. Carriers keep private per-IMEI
+allowlists, and imported or uncommon models frequently aren't on them — so the
+phone gets data but **cannot make calls**. No public dataset can predict this.
+Get the IMEI from the eBay listing and run your carrier's checker before buying.
+
+Band data comes from GSMArena via `crawl_bands.py`. It needs browser cookies,
+because GSMArena Turnstile-blocks bare requests:
+
+```bash
+python3 crawl_bands.py --cookie 'lpe=122; keyw=Xiaomi; DeviceID=10587'
+```
+
+Get the cookie from DevTools → Network → any gsmarena.com request → Cookie
+header. Results cache to `data/gsmarena_cache.json`, so reruns only fetch what's
+missing.
+
+### Why that script is defensive
+
+**GSMArena serves a different phone at HTTP 200 when an ID is stale.** Asking
+for `motorola_moto_g32-11757.php` returns "BLU Bold N2"; another guessed ID
+returned a Xiaomi smartwatch. Nothing in the response signals the swap — and
+band data for the wrong phone is worse than none, because you'd buy on it.
+
+So the script never guesses URLs. It reads GSMArena's own brand index pages for
+real name→URL mappings, then verifies every fetched page's `<title>` still
+matches the phone it asked for. Mismatches and unparseable pages are recorded as
+`null`, and the UI shows "band data unavailable" rather than implying anything.
+
 ## Running it
 
 ```bash

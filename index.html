@@ -8,13 +8,13 @@
   :root {
     --bg: #11131a; --panel: #191c26; --panel-2: #1f2330; --line: #2b3040;
     --ink: #e8eaf2; --muted: #949bb3; --accent: #7aa2ff; --good: #5fd39a;
-    --warn: #f0b45e;
+    --warn: #f0b45e; --bad: #f0736a;
   }
   @media (prefers-color-scheme: light) {
     :root {
       --bg:#f6f7fb; --panel:#fff; --panel-2:#f0f2f8; --line:#dde1ec;
       --ink:#171a22; --muted:#5e6478; --accent:#2f5fd0; --good:#12855c;
-      --warn:#9a6410;
+      --warn:#9a6410; --bad:#c0392b;
     }
   }
   * { box-sizing: border-box; }
@@ -29,6 +29,14 @@
   h1 { margin: 0 0 4px; font-size: 19px; letter-spacing: -.01em; }
   .sub { color: var(--muted); font-size: 13px; }
   .sub code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+  .volte {
+    margin-top: 10px; padding: 9px 12px; border-radius: 8px; font-size: 12.5px;
+    color: var(--ink); background: color-mix(in srgb, var(--warn) 12%, var(--panel-2));
+    border: 1px solid color-mix(in srgb, var(--warn) 35%, var(--line));
+    max-width: 95ch; line-height: 1.5;
+  }
+  .volte b { color: var(--warn); }
+  .volte a { color: var(--accent); }
 
   .controls {
     display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end;
@@ -78,6 +86,25 @@
   .chip.on { color: var(--good); border-color: color-mix(in srgb, var(--good) 40%, var(--line)); }
   .chip.size { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); font-variant-numeric: tabular-nums; }
 
+  .carriers {
+    display: flex; flex-wrap: wrap; gap: 5px; align-items: center;
+    margin-bottom: 9px; padding-top: 8px; border-top: 1px dashed var(--line);
+  }
+  .clabel { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-right: 2px; }
+  .cpill {
+    font-size: 11.5px; padding: 2px 7px; border-radius: 5px; cursor: help;
+    background: var(--panel-2); border: 1px solid var(--line); color: var(--muted);
+  }
+  .cpill b { font-weight: 700; }
+  .cpill.good { color: var(--good); border-color: color-mix(in srgb, var(--good) 45%, var(--line)); }
+  .cpill.warn { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 45%, var(--line)); }
+  .cpill.bad  { color: var(--bad);  border-color: color-mix(in srgb, var(--bad) 40%, var(--line)); }
+  .cunk { font-size: 11.5px; color: var(--muted); font-style: italic; }
+  .bands {
+    flex-basis: 100%; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 10.5px; color: var(--muted); opacity: .75; cursor: help;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
   .foot {
     display: flex; justify-content: space-between; align-items: center;
     border-top: 1px solid var(--line); padding-top: 8px; font-size: 12px; color: var(--muted);
@@ -98,6 +125,16 @@
     Active LineageOS devices &middot; 4&ndash;6.5&Prime; screen &middot; 4G without 5G &middot; 3.5&nbsp;mm jack.
     SD&nbsp;card slot not considered. Click a phone to search eBay.
   </div>
+  <div class="volte">
+    <b>Carrier fit is a band match only.</b> It cannot tell you whether a phone will
+    make calls. VoLTE approval is a per-IMEI allowlist held inside each carrier &mdash;
+    with 2G and 3G shut down, a phone without it gets data but no voice.
+    Get the IMEI from the eBay listing and run it through your carrier's checker before buying:
+    <a href="https://www.mintmobile.com/byop/" target="_blank" rel="noopener">Mint</a> &middot;
+    <a href="https://www.t-mobile.com/resources/bring-your-own-phone" target="_blank" rel="noopener">T-Mobile</a> &middot;
+    <a href="https://www.verizon.com/bring-your-own-device/" target="_blank" rel="noopener">Verizon</a> &middot;
+    <a href="https://www.att.com/buy/byod/" target="_blank" rel="noopener">AT&amp;T</a>
+  </div>
 </header>
 
 <div class="controls">
@@ -117,6 +154,15 @@
     </div>
   </div>
   <div class="ctl">
+    <label for="carrier">Works on</label>
+    <select id="carrier">
+      <option value="">Any carrier</option>
+      <option value="tmobile">T-Mobile / Mint / Fi</option>
+      <option value="verizon">Verizon / Visible</option>
+      <option value="att">AT&amp;T / Cricket</option>
+    </select>
+  </div>
+  <div class="ctl">
     <label for="sort">Sort</label>
     <select id="sort">
       <option value="rel-desc">Newest first</option>
@@ -124,6 +170,7 @@
       <option value="size-asc">Smallest screen</option>
       <option value="size-desc">Largest screen</option>
       <option value="name">Name A–Z</option>
+      <option value="fit">Best carrier fit</option>
     </select>
   </div>
   <div class="count"><b id="n">0</b> phones</div>
@@ -139,6 +186,45 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':
 
 function ebayUrl(p) {
   return 'https://www.ebay.com/sch/i.html?_nkw=' + encodeURIComponent(p.ebay_query);
+}
+
+// Mirrors carriers.py. MVNOs inherit their host network's bands, so Mint is
+// scored as T-Mobile, Visible as Verizon, Cricket as AT&T.
+const CARRIERS = {
+  tmobile:  {name:'T-Mobile',  short:'T-Mo',    essential:[2,4], important:[12,71]},
+  verizon:  {name:'Verizon',   short:'Verizon', essential:[13],  important:[2,4]},
+  att:      {name:'AT&T',      short:'AT&T',    essential:[2,4], important:[12,17]},
+};
+
+function scoreCarrier(bands, key) {
+  const c = CARRIERS[key];
+  if (!bands || !bands.length) return {verdict:'unknown', label:'?', reason:'No band data for this phone.'};
+  const have = new Set(bands);
+  const missE = c.essential.filter(b => !have.has(b));
+  const missI = c.important.filter(b => !have.has(b));
+  if (missE.length)
+    return {verdict:'bad', label:'no', reason:`Missing band ${missE.join(', ')} — required for basic ${c.name} service.`};
+  if (missI.length === c.important.length)
+    return {verdict:'bad', label:'poor', reason:`No low-band (${c.important.join(', ')}) — expect no signal indoors or rurally.`};
+  if (missI.length)
+    return {verdict:'warn', label:'ok', reason:`Missing band ${missI.join(', ')} — weaker indoor and rural coverage.`};
+  return {verdict:'good', label:'yes', reason:`Has all essential and low-bands for ${c.name}.`};
+}
+
+function carrierBlock(p) {
+  const bands = p.lte_bands;
+  if (!bands || !bands.length) {
+    return `<div class="carriers unknown" title="GSMArena had no usable band data for this model.">
+      <span class="clabel">Carrier fit</span><span class="cunk">band data unavailable</span></div>`;
+  }
+  const cells = Object.keys(CARRIERS).map(k => {
+    const s = scoreCarrier(bands, k);
+    return `<span class="cpill ${s.verdict}" title="${esc(s.reason)}">${CARRIERS[k].short} <b>${s.label}</b></span>`;
+  }).join('');
+  return `<div class="carriers">
+      <span class="clabel">Carrier fit</span>${cells}
+      <span class="bands" title="LTE bands: ${bands.join(', ')}">B${bands.join(' · B')}</span>
+    </div>`;
 }
 
 function card(p) {
@@ -167,6 +253,7 @@ function card(p) {
       <span class="chip on">no 5G</span>
       <span class="chip on">3.5 mm jack</span>
     </div>
+    ${carrierBlock(p)}
     <div class="foot">
       <span>${esc(p.release || 'undated')}</span>
       <span class="los">LOS ${esc(los)}</span>
@@ -194,9 +281,17 @@ function render() {
   const smax = parseFloat(el('smax').value);
   const sort = el('sort').value;
 
+  const carrier = el('carrier').value;
+
   let rows = PHONES.filter(p => {
     if (vendor && p.vendor !== vendor) return false;
     if (p.screen_size != null && p.screen_size > smax) return false;
+    if (carrier) {
+      // Keep 'unknown' rows: missing band data is not evidence of a bad
+      // phone, and hiding them would silently shrink the real options.
+      const v = scoreCarrier(p.lte_bands, carrier).verdict;
+      if (v === 'bad') return false;
+    }
     if (!q) return true;
     return (p.name + ' ' + p.vendor + ' ' + p.codename + ' ' + p.models.join(' '))
       .toLowerCase().includes(q);
@@ -208,6 +303,12 @@ function render() {
     'size-asc': (a, b) => a.screen_size - b.screen_size,
     'size-desc':(a, b) => b.screen_size - a.screen_size,
     'name':     (a, b) => (a.vendor + a.name).localeCompare(b.vendor + b.name),
+    'fit':      (a, b) => {
+      const key = el('carrier').value || 'tmobile';
+      const rank = {good: 3, warn: 2, unknown: 1, bad: 0};
+      return rank[scoreCarrier(b.lte_bands, key).verdict]
+           - rank[scoreCarrier(a.lte_bands, key).verdict];
+    },
   }[sort];
   rows = rows.slice().sort(cmp);
 
@@ -233,6 +334,7 @@ fetch('data/phones.json')
 el('q').addEventListener('input', render);
 el('vendor').addEventListener('change', render);
 el('sort').addEventListener('change', render);
+el('carrier').addEventListener('change', render);
 el('smax').addEventListener('input', () => {
   el('smaxOut').innerHTML = parseFloat(el('smax').value).toFixed(1).replace(/\.0$/, '') + '&Prime;';
   render();

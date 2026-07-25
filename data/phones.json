@@ -64,7 +64,23 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "ebay_query": "Xiaomi POCO M5s"
+      "ebay_query": "Xiaomi POCO M5s",
+      "lte_bands": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        20,
+        28,
+        38,
+        40,
+        41
+      ],
+      "bands_source": "https://www.gsmarena.com/xiaomi_poco_m5s-11832.php",
+      "bands_status": "ok"
     },
     {
       "id": "devon",
@@ -120,7 +136,21 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/devon/",
-      "ebay_query": "Motorola moto g32 (XT2235-1,XT2235-2,XT2235-3)"
+      "ebay_query": "Motorola moto g32 (XT2235-1,XT2235-2,XT2235-3)",
+      "lte_bands": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        20,
+        28,
+        38,
+        40,
+        41
+      ],
+      "bands_source": "https://www.gsmarena.com/motorola_moto_g32-11733.php",
+      "bands_status": "ok"
     },
     {
       "id": "hawao",
@@ -175,7 +205,29 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/hawao/",
-      "ebay_query": "Motorola moto g42 (XT2233-1,XT2233-2)"
+      "ebay_query": "Motorola moto g42 (XT2233-1,XT2233-2)",
+      "lte_bands": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        12,
+        13,
+        18,
+        19,
+        20,
+        26,
+        28,
+        38,
+        40,
+        41,
+        66
+      ],
+      "bands_source": "https://www.gsmarena.com/motorola_moto_g42-11608.php",
+      "bands_status": "ok"
     },
     {
       "id": "bathena",
@@ -227,7 +279,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/bathena/",
-      "ebay_query": "Motorola defy 2021 (XT2083-8,XT2083-9)"
+      "ebay_query": "Motorola defy 2021 (XT2083-8,XT2083-9)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "no_match"
     },
     {
       "id": "capri_variant3",
@@ -277,7 +332,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
-      "ebay_query": "Lenovo K13 Note XT2127-3"
+      "ebay_query": "Lenovo K13 Note XT2127-3",
+      "lte_bands": [],
+      "bands_source": "https://www.gsmarena.com/lenovo_k13_note-10970.php",
+      "bands_status": "ok"
     },
     {
       "id": "rosemary_variant2",
@@ -330,7 +388,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "ebay_query": "Xiaomi Redmi Note 10S NFC"
+      "ebay_query": "Xiaomi Redmi Note 10S NFC",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "rosemary_variant3",
@@ -382,7 +443,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "ebay_query": "Xiaomi Redmi Note 10S Latin America"
+      "ebay_query": "Xiaomi Redmi Note 10S Latin America",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "rosemary_variant1",
@@ -434,7 +498,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "ebay_query": "Xiaomi Redmi Note 10S"
+      "ebay_query": "Xiaomi Redmi Note 10S",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "caprip_variant1",
@@ -489,7 +556,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
-      "ebay_query": "Motorola moto g30 (XT2129-1,XT2129-2)"
+      "ebay_query": "Motorola moto g30 (XT2129-1,XT2129-2)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "caprip_variant2",
@@ -543,7 +613,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
-      "ebay_query": "Lenovo K13 Pro XT2129-3"
+      "ebay_query": "Lenovo K13 Pro XT2129-3",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "capri_variant2",
@@ -593,7 +666,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
-      "ebay_query": "Motorola moto g10 power XT2127-4"
+      "ebay_query": "Motorola moto g10 power XT2127-4",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "capri_variant1",
@@ -644,7 +720,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
-      "ebay_query": "Motorola moto g10 (XT2127-1,XT2127-2)"
+      "ebay_query": "Motorola moto g10 (XT2127-1,XT2127-2)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "a52q",
@@ -693,7 +772,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/a52q/",
-      "ebay_query": "Samsung Galaxy A52 4G (SM-A525F,SM-A525M,SM-A525F/DS,SM-A525M/DS)"
+      "ebay_query": "Samsung Galaxy A52 4G (SM-A525F,SM-A525M,SM-A525F/DS,SM-A525M/DS)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "guam_variant1",
@@ -744,7 +826,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guam/",
-      "ebay_query": "Motorola moto e7 plus (XT2081-1,XT2081-2,XT2081-3)"
+      "ebay_query": "Motorola moto e7 plus (XT2081-1,XT2081-2,XT2081-3)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "guam_variant2",
@@ -793,7 +878,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guam/",
-      "ebay_query": "Lenovo K12 XT2081-4"
+      "ebay_query": "Lenovo K12 XT2081-4",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "guamp_variant1",
@@ -850,7 +938,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
-      "ebay_query": "Motorola moto g9 play (XT2083-1,XT2083-3,XT2083-5,XT2083-6)"
+      "ebay_query": "Motorola moto g9 play (XT2083-1,XT2083-3,XT2083-5,XT2083-6)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "guamp_variant2",
@@ -903,7 +994,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
-      "ebay_query": "Motorola moto g9 XT2083-3"
+      "ebay_query": "Motorola moto g9 XT2083-3",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "guamp_variant3",
@@ -956,7 +1050,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
-      "ebay_query": "Lenovo K12 Note XT2083-4"
+      "ebay_query": "Lenovo K12 Note XT2083-4",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "sunfish",
@@ -1010,7 +1107,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/sunfish/",
-      "ebay_query": "Google Pixel 4a"
+      "ebay_query": "Google Pixel 4a",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "axolotl",
@@ -1063,7 +1163,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/axolotl/",
-      "ebay_query": "SHIFT SHIFT6mq"
+      "ebay_query": "SHIFT SHIFT6mq",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "style3lm",
@@ -1109,7 +1212,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/style3lm/",
-      "ebay_query": "LG Style3 L-41A"
+      "ebay_query": "LG Style3 L-41A",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "casuarina_variant2",
@@ -1151,7 +1257,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/casuarina/",
-      "ebay_query": "Vsmart Joy 3+ V430E"
+      "ebay_query": "Vsmart Joy 3+ V430E",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "casuarina_variant1",
@@ -1192,7 +1301,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/casuarina/",
-      "ebay_query": "Vsmart Joy 3 V430A"
+      "ebay_query": "Vsmart Joy 3 V430A",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "a21s",
@@ -1239,7 +1351,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/a21s/",
-      "ebay_query": "Samsung Galaxy A21s (SM-A217F,SM-A217M,SM-A217F/DS,SM-A217F/DSN)"
+      "ebay_query": "Samsung Galaxy A21s (SM-A217F,SM-A217M,SM-A217F/DS,SM-A217F/DSN)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "ginkgo_variant2",
@@ -1290,7 +1405,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
-      "ebay_query": "Xiaomi Redmi Note 8T"
+      "ebay_query": "Xiaomi Redmi Note 8T",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "tucana_variant2",
@@ -1343,7 +1461,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
-      "ebay_query": "Xiaomi Mi Note 10 Pro M1910F4S"
+      "ebay_query": "Xiaomi Mi Note 10 Pro M1910F4S",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "tucana_variant1",
@@ -1396,7 +1517,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
-      "ebay_query": "Xiaomi Mi Note 10 M1910F4G"
+      "ebay_query": "Xiaomi Mi Note 10 M1910F4G",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "tucana_variant3",
@@ -1449,7 +1573,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
-      "ebay_query": "Xiaomi Mi CC9 Pro M1910F4E"
+      "ebay_query": "Xiaomi Mi CC9 Pro M1910F4E",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi439_variant4",
@@ -1502,7 +1629,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
-      "ebay_query": "Xiaomi Redmi 8A Dual M2001C3K3I"
+      "ebay_query": "Xiaomi Redmi 8A Dual M2001C3K3I",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi439_variant3",
@@ -1558,7 +1688,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
-      "ebay_query": "Xiaomi Redmi 8A (M1908C3KE,M1908C3KG,M1908C3KH,M1908C3KI)"
+      "ebay_query": "Xiaomi Redmi 8A (M1908C3KE,M1908C3KG,M1908C3KH,M1908C3KI)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi439_variant2",
@@ -1617,7 +1750,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
-      "ebay_query": "Xiaomi Redmi 8 (M1908C3IC,M1908C3IE,M1908C3IG,M1908C3IH)"
+      "ebay_query": "Xiaomi Redmi 8 (M1908C3IC,M1908C3IE,M1908C3IG,M1908C3IH)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "troika",
@@ -1667,7 +1803,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/troika/",
-      "ebay_query": "Motorola one action (XT2013-1,XT2013-2,XT2013-3,XT2013-4)"
+      "ebay_query": "Motorola one action (XT2013-1,XT2013-2,XT2013-3,XT2013-4)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "pro1",
@@ -1717,7 +1856,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/pro1/",
-      "ebay_query": "F(x)tec Pro\u00b9"
+      "ebay_query": "F(x)tec Pro\u00b9",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "pyxis_variant1",
@@ -1773,7 +1915,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
-      "ebay_query": "Xiaomi Mi CC9 M1904F3BC"
+      "ebay_query": "Xiaomi Mi CC9 M1904F3BC",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "pyxis_variant2",
@@ -1829,7 +1974,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
-      "ebay_query": "Xiaomi Mi 9 Lite M1904F3BG"
+      "ebay_query": "Xiaomi Mi 9 Lite M1904F3BG",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "FP3_variant2",
@@ -1880,7 +2028,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/FP3/",
-      "ebay_query": "Fairphone 3+"
+      "ebay_query": "Fairphone 3+",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "FP3_variant1",
@@ -1931,7 +2082,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/FP3/",
-      "ebay_query": "Fairphone 3"
+      "ebay_query": "Fairphone 3",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "ginkgo_variant1",
@@ -1981,7 +2135,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
-      "ebay_query": "Xiaomi Redmi Note 8"
+      "ebay_query": "Xiaomi Redmi Note 8",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "vela",
@@ -2036,7 +2193,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/vela/",
-      "ebay_query": "Xiaomi Mi CC9 Meitu Edition M1904F3BT"
+      "ebay_query": "Xiaomi Mi CC9 Meitu Edition M1904F3BT",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "davinci_variant3",
@@ -2091,7 +2251,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
-      "ebay_query": "Xiaomi Redmi K20 (India) M1903F10I"
+      "ebay_query": "Xiaomi Redmi K20 (India) M1903F10I",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "davinci_variant2",
@@ -2148,7 +2311,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
-      "ebay_query": "Xiaomi Redmi K20 (China) (M1903F10A,M1903F10C)"
+      "ebay_query": "Xiaomi Redmi K20 (China) (M1903F10A,M1903F10C)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "davinci_variant1",
@@ -2204,7 +2370,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
-      "ebay_query": "Xiaomi Mi 9T M1903F10G"
+      "ebay_query": "Xiaomi Mi 9T M1903F10G",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi439_variant1",
@@ -2262,7 +2431,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi439/",
-      "ebay_query": "Xiaomi Redmi 7A (M1903C3EC,M1903C3EE,M1903C3EG,M1903C3EH)"
+      "ebay_query": "Xiaomi Redmi 7A (M1903C3EC,M1903C3EE,M1903C3EG,M1903C3EH)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "kane_variant2",
@@ -2309,7 +2481,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kane/",
-      "ebay_query": "Motorola p50 XT1970-5"
+      "ebay_query": "Motorola p50 XT1970-5",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "kane_variant1",
@@ -2358,7 +2533,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kane/",
-      "ebay_query": "Motorola one vision (XT1970-1,XT1970-2,XT1970-3)"
+      "ebay_query": "Motorola one vision (XT1970-1,XT1970-2,XT1970-3)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "bonito",
@@ -2416,7 +2594,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/bonito/",
-      "ebay_query": "Google Pixel 3a XL (G020B,G020C,G020D)"
+      "ebay_query": "Google Pixel 3a XL (G020B,G020C,G020D)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "sargo",
@@ -2474,7 +2655,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/sargo/",
-      "ebay_query": "Google Pixel 3a (G020F,G020G,G020H)"
+      "ebay_query": "Google Pixel 3a (G020F,G020G,G020H)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "violet",
@@ -2529,7 +2713,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/violet/",
-      "ebay_query": "Xiaomi Redmi Note 7 Pro (M1901F7S,M1901F7BE)"
+      "ebay_query": "Xiaomi Redmi Note 7 Pro (M1901F7S,M1901F7BE)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "beyond0lte",
@@ -2581,7 +2768,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/beyond0lte/",
-      "ebay_query": "Samsung Galaxy S10e (SM-G970F,SM-G970F/DS,SM-G970N)"
+      "ebay_query": "Samsung Galaxy S10e (SM-G970F,SM-G970F/DS,SM-G970N)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "beyond2lte",
@@ -2634,7 +2824,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/beyond2lte/",
-      "ebay_query": "Samsung Galaxy S10+ (SM-G975F,SM-G975F/DS,SM-G975N)"
+      "ebay_query": "Samsung Galaxy S10+ (SM-G975F,SM-G975F/DS,SM-G975N)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "beyond1lte",
@@ -2687,7 +2880,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/beyond1lte/",
-      "ebay_query": "Samsung Galaxy S10 (SM-G973F,SM-G973F/DS,SM-G973N)"
+      "ebay_query": "Samsung Galaxy S10 (SM-G973F,SM-G973F/DS,SM-G973N)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "channel",
@@ -2739,7 +2935,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/channel/",
-      "ebay_query": "Motorola moto g7 play (XT1952-1,XT1952-2,XT1952-3)"
+      "ebay_query": "Motorola moto g7 play (XT1952-1,XT1952-2,XT1952-3)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "mermaid",
@@ -2799,7 +2998,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/mermaid/",
-      "ebay_query": "Sony Xperia 10 Plus (I3213,I3223,I4213,I4293)"
+      "ebay_query": "Sony Xperia 10 Plus (I3213,I3223,I4213,I4293)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "kirin",
@@ -2859,7 +3061,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kirin/",
-      "ebay_query": "Sony Xperia 10 (I3113,I3123,I4113,I4193)"
+      "ebay_query": "Sony Xperia 10 (I3113,I3123,I4113,I4193)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "ocean",
@@ -2913,7 +3118,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ocean/",
-      "ebay_query": "Motorola moto g7 power (XT1955-1,XT1955-2,XT1955-4,XT1955-5)"
+      "ebay_query": "Motorola moto g7 power (XT1955-1,XT1955-2,XT1955-4,XT1955-5)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "lake",
@@ -2966,7 +3174,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/lake/",
-      "ebay_query": "Motorola moto g7 plus (XT1965-2,XT1965-3,XT1965-6,XT1965-T)"
+      "ebay_query": "Motorola moto g7 plus (XT1965-2,XT1965-3,XT1965-6,XT1965-T)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "river",
@@ -3020,7 +3231,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/river/",
-      "ebay_query": "Motorola moto g7 (XT1962-01,XT1962-04,XT1962-05,XT1962-06)"
+      "ebay_query": "Motorola moto g7 (XT1962-01,XT1962-04,XT1962-05,XT1962-06)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "nx619j",
@@ -3068,7 +3282,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/nx619j/",
-      "ebay_query": "Nubia Red Magic Mars NX619J"
+      "ebay_query": "Nubia Red Magic Mars NX619J",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "judypn",
@@ -3122,7 +3339,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/judypn/",
-      "ebay_query": "LG V40 ThinQ (LM-V405QA7,LM-V405UA,LM-V405UA0,LM-V405EBW)"
+      "ebay_query": "LG V40 ThinQ (LM-V405QA7,LM-V405UA,LM-V405UA0,LM-V405EBW)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "beryllium",
@@ -3172,7 +3392,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
-      "ebay_query": "Xiaomi POCO F1"
+      "ebay_query": "Xiaomi POCO F1",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "voyager",
@@ -3231,7 +3454,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/voyager/",
-      "ebay_query": "Sony Xperia XA2 Plus (H3413,H4413,H4493)"
+      "ebay_query": "Sony Xperia XA2 Plus (H3413,H4413,H4493)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Z01R",
@@ -3284,7 +3510,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Z01R/",
-      "ebay_query": "ASUS Zenfone 5Z (ZS620KL)"
+      "ebay_query": "ASUS Zenfone 5Z (ZS620KL)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "evert",
@@ -3340,7 +3569,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/evert/",
-      "ebay_query": "Motorola moto g6 plus (XT1926-2,XT1926-3,XT1926-5,XT1926-6)"
+      "ebay_query": "Motorola moto g6 plus (XT1926-2,XT1926-3,XT1926-5,XT1926-6)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "judyp",
@@ -3391,7 +3623,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/judyp/",
-      "ebay_query": "LG V35 ThinQ (LM-V350AWM,LM-V350N)"
+      "ebay_query": "LG V35 ThinQ (LM-V350AWM,LM-V350N)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "judyln_variant2",
@@ -3441,7 +3676,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/judyln/",
-      "ebay_query": "LG G7+ ThinQ LM-G710EAW"
+      "ebay_query": "LG G7+ ThinQ LM-G710EAW",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "g710ulm",
@@ -3492,7 +3730,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/g710ulm/",
-      "ebay_query": "LG G7 ThinQ (G710ULM/VMX) (LM-G710ULM,LM-G710VMX)"
+      "ebay_query": "LG G7 ThinQ (G710ULM/VMX) (LM-G710ULM,LM-G710VMX)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "g710n",
@@ -3542,7 +3783,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/g710n/",
-      "ebay_query": "LG G7 ThinQ (G710N) LM-G710N"
+      "ebay_query": "LG G7 ThinQ (G710N) LM-G710N",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "judyln_variant1",
@@ -3594,7 +3838,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/judyln/",
-      "ebay_query": "LG G7 ThinQ (G710AWM/EM/EMW) (LM-G710AWM,LM-G710EM,LM-G710EMW)"
+      "ebay_query": "LG G7 ThinQ (G710AWM/EM/EMW) (LM-G710AWM,LM-G710EM,LM-G710EMW)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "enchilada",
@@ -3650,7 +3897,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/enchilada/",
-      "ebay_query": "OnePlus 6"
+      "ebay_query": "OnePlus 6",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "B2N",
@@ -3692,7 +3942,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/B2N/",
-      "ebay_query": "Nokia 7 plus (TA-1041,TA-1062,TA-1046)"
+      "ebay_query": "Nokia 7 plus (TA-1041,TA-1062,TA-1046)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "discovery",
@@ -3754,7 +4007,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/discovery/",
-      "ebay_query": "Sony Xperia XA2 Ultra (H3213,H4213,H4233,H3223)"
+      "ebay_query": "Sony Xperia XA2 Ultra (H3213,H4213,H4233,H3223)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "pioneer",
@@ -3817,7 +4073,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/pioneer/",
-      "ebay_query": "Sony Xperia XA2 (H3113,H4113,H3133,H4133)"
+      "ebay_query": "Sony Xperia XA2 (H3113,H4113,H3133,H4133)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "PL2",
@@ -3865,7 +4124,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/PL2/",
-      "ebay_query": "Nokia 6.1 (2018) (TA-1043,TA-1089)"
+      "ebay_query": "Nokia 6.1 (2018) (TA-1043,TA-1089)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "dumpling",
@@ -3921,7 +4183,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/dumpling/",
-      "ebay_query": "OnePlus 5T"
+      "ebay_query": "OnePlus 5T",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8917_variant2",
@@ -3978,7 +4243,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
-      "ebay_query": "Xiaomi Redmi 5A (MCE3B,MCG3B,MCI3B,MCT3B)"
+      "ebay_query": "Xiaomi Redmi 5A (MCE3B,MCG3B,MCI3B,MCT3B)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "payton",
@@ -4036,7 +4304,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/payton/",
-      "ebay_query": "Motorola moto x4 (XT1900-1,XT1900-2,XT1900-3,XT1900-4)"
+      "ebay_query": "Motorola moto x4 (XT1900-1,XT1900-2,XT1900-3,XT1900-4)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant6",
@@ -4091,7 +4362,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi Y1 Prime MDI6S"
+      "ebay_query": "Xiaomi Redmi Y1 Prime MDI6S",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8917_variant4",
@@ -4145,7 +4419,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
-      "ebay_query": "Xiaomi Redmi Y1 Lite MDI6"
+      "ebay_query": "Xiaomi Redmi Y1 Lite MDI6",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant5",
@@ -4202,7 +4479,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi Note 5A Prime (MDE6S,MDG6S,MDT6S)"
+      "ebay_query": "Xiaomi Redmi Note 5A Prime (MDE6S,MDG6S,MDT6S)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8917_variant3",
@@ -4258,7 +4538,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
-      "ebay_query": "Xiaomi Redmi Note 5A Lite (MDE6,MDG6,MDT6)"
+      "ebay_query": "Xiaomi Redmi Note 5A Lite (MDE6,MDG6,MDT6)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "NB1",
@@ -4305,7 +4588,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/NB1/",
-      "ebay_query": "Nokia 8 (TA-1004,TA-1012,TA-1052)"
+      "ebay_query": "Nokia 8 (TA-1004,TA-1012,TA-1052)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "joan_variant1",
@@ -4359,7 +4645,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/joan/",
-      "ebay_query": "LG V30 (Unlocked) (H930,H930DS,US998)"
+      "ebay_query": "LG V30 (Unlocked) (H930,H930DS,US998)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "joan_variant2",
@@ -4409,7 +4698,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/joan/",
-      "ebay_query": "LG V30 (T-Mobile) H932"
+      "ebay_query": "LG V30 (T-Mobile) H932",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "joan_variant3",
@@ -4465,7 +4757,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/joan/",
-      "ebay_query": "LG V30 (Other) (H931,H933,LS998,V300L)"
+      "ebay_query": "LG V30 (Other) (H931,H933,LS998,V300L)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "l01k",
@@ -4516,7 +4811,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/l01k/",
-      "ebay_query": "LG V30 (Japan) (L-01K,LGV35)"
+      "ebay_query": "LG V30 (Japan) (L-01K,LGV35)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "cheeseburger",
@@ -4573,7 +4871,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/cheeseburger/",
-      "ebay_query": "OnePlus 5"
+      "ebay_query": "OnePlus 5",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant4",
@@ -4630,7 +4931,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi 4X (MAG138,MAE136,MAT136)"
+      "ebay_query": "Xiaomi Redmi 4X (MAG138,MAE136,MAT136)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant3",
@@ -4685,7 +4989,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi 4 (India) MAI132"
+      "ebay_query": "Xiaomi Redmi 4 (India) MAI132",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "us997",
@@ -4729,7 +5036,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/us997/",
-      "ebay_query": "LG G6 (US Unlocked)"
+      "ebay_query": "LG G6 (US Unlocked)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h872",
@@ -4771,7 +5081,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h872/",
-      "ebay_query": "LG G6 (T-Mobile)"
+      "ebay_query": "LG G6 (T-Mobile)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h870",
@@ -4814,7 +5127,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h870/",
-      "ebay_query": "LG G6 (EU Unlocked)"
+      "ebay_query": "LG G6 (EU Unlocked)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h870d",
@@ -4857,7 +5173,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h870d/",
-      "ebay_query": "LG G6 (EU Unlocked - ENG BL)"
+      "ebay_query": "LG G6 (EU Unlocked - ENG BL)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h873",
@@ -4900,7 +5219,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h873/",
-      "ebay_query": "LG G6 (Canada - ENG BL)"
+      "ebay_query": "LG G6 (Canada - ENG BL)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8917_variant1",
@@ -4957,7 +5279,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
-      "ebay_query": "Xiaomi Redmi 4A (2016111,2016112,2016116,2016117)"
+      "ebay_query": "Xiaomi Redmi 4A (2016111,2016112,2016116,2016117)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "scorpio",
@@ -5005,7 +5330,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
-      "ebay_query": "Xiaomi Mi Note 2"
+      "ebay_query": "Xiaomi Mi Note 2",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "natrium",
@@ -5057,7 +5385,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
-      "ebay_query": "Xiaomi Mi 5s Plus"
+      "ebay_query": "Xiaomi Mi 5s Plus",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "vs995",
@@ -5109,7 +5440,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/vs995/",
-      "ebay_query": "LG V20 (Verizon)"
+      "ebay_query": "LG V20 (Verizon)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h918",
@@ -5160,7 +5494,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h918/",
-      "ebay_query": "LG V20 (T-Mobile)"
+      "ebay_query": "LG V20 (T-Mobile)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "ls997",
@@ -5212,7 +5549,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ls997/",
-      "ebay_query": "LG V20 (Sprint)"
+      "ebay_query": "LG V20 (Sprint)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h990",
@@ -5265,7 +5605,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h990/",
-      "ebay_query": "LG V20 (Global)"
+      "ebay_query": "LG V20 (Global)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "us996",
@@ -5317,7 +5660,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/us996/",
-      "ebay_query": "LG V20 (GSM Unlocked)"
+      "ebay_query": "LG V20 (GSM Unlocked)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "us996d",
@@ -5369,7 +5715,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/us996d/",
-      "ebay_query": "LG V20 (GSM Unlocked - DirtySanta)"
+      "ebay_query": "LG V20 (GSM Unlocked - DirtySanta)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h910",
@@ -5420,7 +5769,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h910/",
-      "ebay_query": "LG V20 (AT&T)"
+      "ebay_query": "LG V20 (AT&T)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "marlin",
@@ -5470,7 +5822,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/marlin/",
-      "ebay_query": "Google Pixel XL"
+      "ebay_query": "Google Pixel XL",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "sailfish",
@@ -5520,7 +5875,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/sailfish/",
-      "ebay_query": "Google Pixel"
+      "ebay_query": "Google Pixel",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant2",
@@ -5577,7 +5935,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi 3X (2016036,2016035,2016033)"
+      "ebay_query": "Xiaomi Redmi 3X (2016036,2016035,2016033)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "Mi8937_variant1",
@@ -5635,7 +5996,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
-      "ebay_query": "Xiaomi Redmi 3S (2016031,2016037,2016032,2016030)"
+      "ebay_query": "Xiaomi Redmi 3S (2016031,2016037,2016032,2016030)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "gemini",
@@ -5687,7 +6051,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
-      "ebay_query": "Xiaomi Mi 5"
+      "ebay_query": "Xiaomi Mi 5",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "rs988",
@@ -5739,7 +6106,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rs988/",
-      "ebay_query": "LG G5 (US Unlocked)"
+      "ebay_query": "LG G5 (US Unlocked)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h830",
@@ -5784,7 +6154,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h830/",
-      "ebay_query": "LG G5 (T-Mobile)"
+      "ebay_query": "LG G5 (T-Mobile)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     },
     {
       "id": "h850",
@@ -5830,7 +6203,10 @@
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/h850/",
-      "ebay_query": "LG G5 (International)"
+      "ebay_query": "LG G5 (International)",
+      "lte_bands": null,
+      "bands_source": null,
+      "bands_status": "not_fetched"
     }
   ]
 }
