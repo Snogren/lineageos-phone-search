@@ -11,7 +11,7 @@
   },
   "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
   "total_devices": 737,
-  "matched": 97,
+  "matched": 98,
   "phones": [
     {
       "id": "rosemary_variant4",
@@ -1869,6 +1869,58 @@
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/vela/",
       "ebay_query": "Xiaomi Mi CC9 Meitu Edition M1904F3BT"
+    },
+    {
+      "id": "laurel_sprout",
+      "codename": "laurel_sprout",
+      "vendor": "Xiaomi",
+      "name": "Mi A3",
+      "models": [
+        "M1906F9SH",
+        "M1906F9SI"
+      ],
+      "type": "phone",
+      "release": "2019-07",
+      "release_key": "2019-07",
+      "screen_sizes": [
+        6.09
+      ],
+      "screen_size": 6.09,
+      "screen_tech": "Super AMOLED",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Barometer",
+        "Compass",
+        "Dual SIM",
+        "FM radio",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Gyroscope",
+        "IR blaster",
+        "Light sensor",
+        "Pedometer",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "22.2",
+        "23.0",
+        "23.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/laurel_sprout/",
+      "ebay_query": "Xiaomi Mi A3 (M1906F9SH,M1906F9SI)"
     },
     {
       "id": "davinci_variant3",
