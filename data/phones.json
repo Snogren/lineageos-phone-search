@@ -10,8 +10,8 @@
     "device_type": "not filtered"
   },
   "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
-  "total_devices": 743,
-  "matched": 98,
+  "total_devices": 763,
+  "matched": 99,
   "phones": [
     {
       "id": "rosemary_variant4",
@@ -60,7 +60,8 @@
         "21",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
@@ -116,7 +117,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/devon/",
@@ -171,7 +173,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/hawao/",
@@ -223,7 +226,8 @@
       "versions": [
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/bathena/",
@@ -273,7 +277,8 @@
       "versions": [
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
@@ -326,7 +331,8 @@
         "21",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
@@ -378,7 +384,8 @@
         "21",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
@@ -430,7 +437,8 @@
         "21",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
@@ -485,7 +493,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
@@ -539,7 +548,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/caprip/",
@@ -589,7 +599,8 @@
       "versions": [
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
@@ -640,7 +651,8 @@
       "versions": [
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
@@ -689,7 +701,8 @@
         "21",
         "22.1",
         "22.2",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/a52q/",
@@ -740,7 +753,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guam/",
@@ -789,7 +803,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guam/",
@@ -846,7 +861,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
@@ -899,7 +915,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
@@ -952,7 +969,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/guamp/",
@@ -1006,7 +1024,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/sunfish/",
@@ -1235,7 +1254,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/a21s/",
@@ -1286,7 +1306,8 @@
         "18.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
@@ -1495,7 +1516,8 @@
         "21",
         "22.1",
         "22.2",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/troika/",
@@ -1809,7 +1831,8 @@
         "18.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
@@ -1916,7 +1939,8 @@
       "versions": [
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/laurel_sprout/",
@@ -2131,7 +2155,8 @@
         "21",
         "22.1",
         "22.2",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kane/",
@@ -2180,7 +2205,8 @@
         "21",
         "22.1",
         "22.2",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kane/",
@@ -2681,7 +2707,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/kirin/",
@@ -3053,7 +3080,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/voyager/",
@@ -3423,6 +3451,49 @@
       "ebay_query": "LG G7 ThinQ (G710AWM/EM/EMW) (LM-G710AWM,LM-G710EM,LM-G710EMW)"
     },
     {
+      "id": "X00TD",
+      "codename": "X00TD",
+      "vendor": "ASUS",
+      "name": "Zenfone Max Pro M1",
+      "models": [],
+      "type": "phone",
+      "release": "2018-05",
+      "release_key": "2018-05",
+      "screen_sizes": [
+        5.99
+      ],
+      "screen_size": 5.99,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "FM radio",
+        "Fingerprint reader",
+        "GPS",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "15.1",
+        "16.0",
+        "18.1",
+        "19.1",
+        "20",
+        "24.0"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/X00TD/",
+      "ebay_query": "ASUS Zenfone Max Pro M1"
+    },
+    {
       "id": "enchilada",
       "codename": "enchilada",
       "vendor": "OnePlus",
@@ -3576,7 +3647,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/discovery/",
@@ -3639,7 +3711,8 @@
         "22.1",
         "22.2",
         "23.0",
-        "23.2"
+        "23.2",
+        "24.0"
       ],
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/pioneer/",
