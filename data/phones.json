@@ -10,8 +10,8 @@
     "device_type": "not filtered"
   },
   "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
-  "total_devices": 763,
-  "matched": 99,
+  "total_devices": 764,
+  "matched": 100,
   "phones": [
     {
       "id": "rosemary_variant4",
@@ -657,6 +657,52 @@
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/capri/",
       "ebay_query": "Motorola moto g10 (XT2127-1,XT2127-2)"
+    },
+    {
+      "id": "guamna",
+      "codename": "guamna",
+      "vendor": "Motorola",
+      "name": "moto g play (2021)",
+      "models": [
+        "XT2093-3",
+        "XT2093-4"
+      ],
+      "type": "phone",
+      "release": "2021-01-08",
+      "release_key": "2021-01",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "2G CDMA",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Dual SIM",
+        "Fingerprint reader",
+        "Galileo",
+        "GLONASS",
+        "GPS",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "24.0"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/guamna/",
+      "ebay_query": "Motorola moto g play (2021) (XT2093-3,XT2093-4)"
     },
     {
       "id": "a52q",
