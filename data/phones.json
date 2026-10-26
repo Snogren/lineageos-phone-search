@@ -10,8 +10,8 @@
     "device_type": "not filtered"
   },
   "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
-  "total_devices": 764,
-  "matched": 100,
+  "total_devices": 769,
+  "matched": 101,
   "phones": [
     {
       "id": "rosemary_variant4",
@@ -179,6 +179,53 @@
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/hawao/",
       "ebay_query": "Motorola moto g42 (XT2233-1,XT2233-2)"
+    },
+    {
+      "id": "ellis",
+      "codename": "ellis",
+      "vendor": "Motorola",
+      "name": "moto g pure",
+      "models": [
+        "XT2163-1",
+        "XT2163-2",
+        "XT2163-4",
+        "XT2163-6",
+        "XT2163-7",
+        "XT2163DL"
+      ],
+      "type": "phone",
+      "release": "2021-10-14",
+      "release_key": "2021-10",
+      "screen_sizes": [
+        6.5
+      ],
+      "screen_size": 6.5,
+      "screen_tech": "IPS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "A-GPS",
+        "Accelerometer",
+        "Fingerprint reader",
+        "GLONASS",
+        "GPS",
+        "Light sensor",
+        "Proximity sensor",
+        "USB OTG"
+      ],
+      "versions": [
+        "24.0"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/ellis/",
+      "ebay_query": "Motorola moto g pure (XT2163-1,XT2163-2,XT2163-4,XT2163-6)"
     },
     {
       "id": "bathena",
