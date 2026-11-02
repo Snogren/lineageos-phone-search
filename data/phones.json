@@ -10,8 +10,8 @@
     "device_type": "not filtered"
   },
   "source": "https://github.com/LineageOS/lineage_wiki/tree/main/_data/devices",
-  "total_devices": 769,
-  "matched": 101,
+  "total_devices": 772,
+  "matched": 102,
   "phones": [
     {
       "id": "rosemary_variant4",
@@ -2967,6 +2967,51 @@
       "active": true,
       "wiki_url": "https://wiki.lineageos.org/devices/river/",
       "ebay_query": "Motorola moto g7 (XT1962-01,XT1962-04,XT1962-05,XT1962-06)"
+    },
+    {
+      "id": "m20lte",
+      "codename": "m20lte",
+      "vendor": "Samsung",
+      "name": "Galaxy M20",
+      "models": [
+        "SM-M205F",
+        "SM-M205FN",
+        "SM-M205G",
+        "SM-M205M",
+        "SM-M205N"
+      ],
+      "type": "phone",
+      "release": "2019-01-28",
+      "release_key": "2019-01",
+      "screen_sizes": [
+        6.3
+      ],
+      "screen_size": 6.3,
+      "screen_tech": "PLS LCD",
+      "networks": [
+        "2G GSM",
+        "3G UMTS",
+        "4G LTE"
+      ],
+      "has_4g": true,
+      "has_5g": false,
+      "has_jack": true,
+      "peripherals": [
+        "3.5mm jack",
+        "Accelerometer",
+        "Compass",
+        "Fingerprint reader",
+        "GPS",
+        "Gyroscope",
+        "Proximity sensor"
+      ],
+      "versions": [
+        "18.1",
+        "22.2"
+      ],
+      "active": true,
+      "wiki_url": "https://wiki.lineageos.org/devices/m20lte/",
+      "ebay_query": "Samsung Galaxy M20 (SM-M205F,SM-M205FN,SM-M205G,SM-M205M)"
     },
     {
       "id": "nx619j",
